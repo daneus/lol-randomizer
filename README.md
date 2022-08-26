@@ -1,19 +1,5 @@
-# lolrandomizer
+# LoL Randomizer
 
-## Project setup
-```
-yarn install
-```
+This is an application made to test your skills with a random League of Legends build.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Preview: https://daneus-lolrandomizer.netlify.app/
