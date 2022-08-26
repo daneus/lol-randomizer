@@ -1,0 +1,190 @@
+[
+  {
+    "Precision": [
+      {
+        "keystones": [
+          { "PressTheAttack": "Press the Attack" },
+          { "LethalTempo": "Lethal Tempo" },
+          { "FleetFootwork": "Fleet Footwork" },
+          { "Conqueror": "Conqueror" }
+        ]
+      },
+      {
+        "firstRow": [
+          { "Overheal": "Overheal" },
+          { "Triumph": "Triumph" },
+          { "PresenceOfMind": "Presence of Mind" }
+        ]
+      },
+      {
+        "secondRow": [
+          { "LegendAlacrity": "Legend: Alacrity" },
+          { "LegendTenacity": "Legend: Tenacity" },
+          { "LegendBloodline": "Legend: Bloodline" }
+        ]
+      },
+      {
+        "thirdRow": [
+          { "CoupDeGrace": "Coup de Grace" },
+          { "CutDown": "Cut Down" },
+          { "LastStand": "Last Stand" }
+        ]
+      }
+    ]
+  },
+  {
+    "Sorcery": [
+      {
+        "keystones": [
+          { "SummonAery": "Summon Aery" },
+          { "ArcaneComet": "Arcane Comet" },
+          { "PhaseRush": "Phase Rush" }
+        ]
+      },
+      {
+        "firstRow": [
+          { "NullifyingOrb": "Nullifying Orb" },
+          { "ManaflowBand": "Manaflow Band" },
+          { "NimbusCloak": "Nimbus Cloak" }
+        ]
+      },
+      {
+        "secondRow": [
+          { "Transcendence": "Transcendence" },
+          { "Celerity": "Celerity" },
+          { "AbsoluteFocus": "Absolute Focus" }
+        ]
+      },
+      {
+        "thirdRow": [
+          { "Scorch": "Scorch" },
+          { "Waterwalking": "Waterwalking" },
+          { "GatheringStorm": "Gathering Storm" }
+        ]
+      }
+    ]
+  },
+  {
+    "Domination": [
+      {
+        "keystones": [
+          { "Electrocute": "Electrocute" },
+          { "Predator": "Predator" },
+          { "DarkHarvest": "Dark Harvest" },
+          { "HailOfBlades": "Hail of Blades" }
+        ]
+      },
+      {
+        "firstRow": [
+          { "CheapShot": "Cheap Shot" },
+          { "TasteOfBlood": "Taste of Blood" },
+          { "SuddenImpact": "Sudden Impact" }
+        ]
+      },
+      {
+        "secondRow": [
+          { "ZombieWard": "Zombie Ward" },
+          { "GhostPoro": "Ghost Poro" },
+          { "EyeballCollection": "Eyeball Collection" }
+        ]
+      },
+      {
+        "thirdRow": [
+          { "TreasureHunter": "Treasure Hunter" },
+          { "IngeniousHunter": "Ingenious Hunter" },
+          { "RelentlessHunter": "Relentless Hunter" },
+          { "UltimateHunter": "Ultimate Hunter" }
+        ]
+      }
+    ]
+  },
+  {
+    "Resolve": [
+      {
+        "keystones": [
+          { "GraspOfTheUndying": "Grasp of the Undying" },
+          { "Aftershock": "Aftershock" },
+          { "Guardian": "Guardian" }
+        ]
+      },
+      {
+        "firstRow": [
+          { "Demolish": "Demolish" },
+          { "FontOfLife": "Font of Life" },
+          { "ShieldBash": "Shield Bash" }
+        ]
+      },
+      {
+        "secondRow": [
+          { "Conditioning": "Conditioning" },
+          { "SecondWind": "Second Wind" },
+          { "BonePlating": "Bone Plating" }
+        ]
+      },
+      {
+        "thirdRow": [
+          { "Overgrowth": "Overgrowth" },
+          { "Revitalize": "Revitalize" },
+          { "Unflinching": "Unflinching" }
+        ]
+      }
+    ]
+  },
+  {
+    "Inspiration": [
+      {
+        "keystones": [
+          { "GlacialAugment": "Glacial Augment" },
+          { "UnsealedSpellbook": "Unsealed Spellbook" },
+          { "FirstStrike": "First Strike" }
+        ]
+      },
+      {
+        "firstRow": [
+          { "HextechFlashtraption": "Hextech Flashtraption" },
+          { "MagicalFootwear": "Magical Footwear" },
+          { "PerfectTiming": "Perfect Timing" }
+        ]
+      },
+      {
+        "secondRow": [
+          { "FuturesMarket": "Future's Market" },
+          { "MinionDematerializer": "Minion Dematerializer" },
+          { "BiscuitDelivery": "Biscuit Delivery" }
+        ]
+      },
+      {
+        "thirdRow": [
+          { "CosmicInsight": "Cosmic Insight" },
+          { "ApproachVelocity": "Approach Velocity" },
+          { "TimeWarpTonic": "Time Warp Tonic" }
+        ]
+      }
+    ]
+  },
+  {
+    "Stats": [
+      {
+        "firstRow": [
+          { "AdaptiveForce": "Adaptive Force" },
+          { "AttackSpeed": "Attack Speed" },
+          { "AbilityHaste": "Ability Haste" }
+        ]
+      },
+      {
+        "secondRow": [
+          { "AdaptiveForce": "Adaptive Force" },
+          { "Armor": "Armor" },
+          { "MagicResist": "Magic Resistance" }
+        ]
+      },
+      {
+        "thirdRow": [
+          { "HP": "Health" },
+          { "Armor": "Armor" },
+          { "MagicResist": "Magic Resistance" }
+        ]
+      }
+    ]
+  }
+]

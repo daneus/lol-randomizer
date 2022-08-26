@@ -1,0 +1,262 @@
+[
+  {
+    "itemName": "Chemtech Putrifier",
+    "icon": "3011.png"
+  },
+  {
+    "itemName": "Guardian Angel",
+    "icon": "3026.png"
+  },
+  {
+    "itemName": "Infinity Edge",
+    "icon": "3031.png"
+  },
+  {
+    "itemName": "Mortal Reminder",
+    "icon": "3033.png"
+  },
+  {
+    "itemName": "Lord Dominik's Regards",
+    "icon": "3036.png"
+  },
+  {
+    "itemName": "Seraph's Embrace",
+    "icon": "3040.png"
+  },
+  {
+    "itemName": "Mejai's Soulstealer",
+    "icon": "3041.png"
+  },
+  {
+    "itemName": "Muramana",
+    "icon": "3042.png"
+  },
+  {
+    "itemName": "Phantom Dancer",
+    "icon": "3046.png"
+  },
+  {
+    "itemName": "Zeke's Convergence",
+    "icon": "3050.png"
+  },
+  {
+    "itemName": "Sterak's Gage",
+    "icon": "3053.png"
+  },
+  {
+    "itemName": "Spirit Visage",
+    "icon": "3065.png"
+  },
+  {
+    "itemName": "Black Cleaver",
+    "icon": "3071.png"
+  },
+  {
+    "itemName": "Bloodthirster",
+    "icon": "3072.png"
+  },
+  {
+    "itemName": "Ravenous Hydra",
+    "icon": "3074.png"
+  },
+  {
+    "itemName": "Thornmail",
+    "icon": "3075.png"
+  },
+  {
+    "itemName": "Warmog's Armor",
+    "icon": "3083.png"
+  },
+  {
+    "itemName": "Runaan's Hurricane",
+    "icon": "3085.png"
+  },
+  {
+    "itemName": "Rabadon's Deathcap",
+    "icon": "3089.png"
+  },
+  {
+    "itemName": "Wit's End",
+    "icon": "3091.png"
+  },
+  {
+    "itemName": "Rapid Firecannon",
+    "icon": "3094.png"
+  },
+  {
+    "itemName": "Stormrazor",
+    "icon": "3095.png"
+  },
+  {
+    "itemName": "Lich Bane",
+    "icon": "3100.png"
+  },
+  {
+    "itemName": "Banshee's Veil",
+    "icon": "3102.png"
+  },
+  {
+    "itemName": "Redemption",
+    "icon": "3107.png"
+  },
+  {
+    "itemName": "Knight's Vow",
+    "icon": "3109.png"
+  },
+  {
+    "itemName": "Frozen Heart",
+    "icon": "3110.png"
+  },
+  {
+    "itemName": "Nashor's Tooth",
+    "icon": "3115.png"
+  },
+  {
+    "itemName": "Rylai's Crystal Scepter",
+    "icon": "3116.png"
+  },
+  {
+    "itemName": "Fimbulwinter",
+    "icon": "3121.png"
+  },
+  {
+    "itemName": "Guinsoo's Rageblade",
+    "icon": "3124.png"
+  },
+  {
+    "itemName": "Void Staff",
+    "icon": "3135.png"
+  },
+  {
+    "itemName": "Mercurial Scimitar",
+    "icon": "3139.png"
+  },
+  {
+    "itemName": "Youmuu's Ghostblade",
+    "icon": "3142.png"
+  },
+  {
+    "itemName": "Randuin's Omen",
+    "icon": "3143.png"
+  },
+  {
+    "itemName": "Blade of The Ruined King",
+    "icon": "3153.png"
+  },
+  {
+    "itemName": "Maw of Malmortius",
+    "icon": "3156.png"
+  },
+  {
+    "itemName": "Zhonya's Hourglass",
+    "icon": "3157.png"
+  },
+  {
+    "itemName": "Morellonomicon",
+    "icon": "3165.png"
+  },
+  {
+    "itemName": "Umbral Glaive",
+    "icon": "3179.png"
+  },
+  {
+    "itemName": "Hullbreaker",
+    "icon": "3181.png"
+  },
+  {
+    "itemName": "Gargoyle Stoneplate",
+    "icon": "3193.png"
+  },
+  {
+    "itemName": "Mikael's Blessing",
+    "icon": "3222.png"
+  },
+  {
+    "itemName": "Ardent Censer",
+    "icon": "3504.png"
+  },
+  {
+    "itemName": "Essence Reaver",
+    "icon": "3508.png"
+  },
+  {
+    "itemName": "Dead Man's Plate",
+    "icon": "3742.png"
+  },
+  {
+    "itemName": "Titanic Hydra",
+    "icon": "3748.png"
+  },
+  {
+    "itemName": "Edge of Night",
+    "icon": "3814.png"
+  },
+  {
+    "itemName": "Force of Nature",
+    "icon": "4401.png"
+  },
+  {
+    "itemName": "Horizon Focus",
+    "icon": "4628.png"
+  },
+  {
+    "itemName": "Cosmic Drive",
+    "icon": "4629.png"
+  },
+  {
+    "itemName": "Demonic Embrace",
+    "icon": "4637.png"
+  },
+  {
+    "itemName": "Vigilant Wardstone",
+    "icon": "4643.png"
+  },
+  {
+    "itemName": "Shadowflame",
+    "icon": "4645.png"
+  },
+  {
+    "itemName": "Silvermere Dawn",
+    "icon": "6035.png"
+  },
+  {
+    "itemName": "Death's Dance",
+    "icon": "6333.png"
+  },
+  {
+    "itemName": "Chempunk Chainsword",
+    "icon": "6609.png"
+  },
+  {
+    "itemName": "Staff of Flowing Water",
+    "icon": "6616.png"
+  },
+  {
+    "itemName": "Navori Quickblades",
+    "icon": "6675.png"
+  },
+  {
+    "itemName": "The Collector",
+    "icon": "6676.png"
+  },
+  {
+    "itemName": "Serylda's Grudge",
+    "icon": "6694.png"
+  },
+  {
+    "itemName": "Serpent's Fang",
+    "icon": "6695.png"
+  },
+  {
+    "itemName": "Axiom Arc",
+    "icon": "6696.png"
+  },
+  {
+    "itemName": "Anathema's Chains",
+    "icon": "8001.png"
+  },
+  {
+    "itemName": "Abyssal Mask",
+    "icon": "8020.png"
+  }
+]

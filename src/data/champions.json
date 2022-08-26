@@ -1,0 +1,3136 @@
+[
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Aatrox",
+    "championTitle": "the Darkin Blade",
+    "abilities": [
+      {
+        "spellID": "AatroxQ",
+        "spellName": "The Darkin Blade",
+        "spellKey": "Q"
+      },
+      { "spellID": "AatroxW", "spellName": "Infernal Chains", "spellKey": "W" },
+      { "spellID": "AatroxE", "spellName": "Umbral Dash", "spellKey": "E" }
+    ],
+    "championID": "Aatrox",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Ahri",
+    "championTitle": "the Nine-Tailed Fox",
+    "abilities": [
+      {
+        "spellID": "AhriOrbofDeception",
+        "spellName": "Orb of Deception",
+        "spellKey": "Q"
+      },
+      { "spellID": "AhriFoxFire", "spellName": "Fox-Fire", "spellKey": "W" },
+      { "spellID": "AhriSeduce", "spellName": "Charm", "spellKey": "E" }
+    ],
+    "championID": "Ahri",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "energy",
+    "championName": "Akali",
+    "championTitle": "the Rogue Assassin",
+    "abilities": [
+      {
+        "spellID": "AkaliQ",
+        "spellName": "Five Point Strike",
+        "spellKey": "Q"
+      },
+      { "spellID": "AkaliW", "spellName": "Twilight Shroud", "spellKey": "W" },
+      { "spellID": "AkaliE", "spellName": "Shuriken Flip", "spellKey": "E" }
+    ],
+    "championID": "Akali",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Akshan",
+    "championTitle": "the Rogue Sentinel",
+    "abilities": [
+      { "spellID": "AkshanQ", "spellName": "Avengerang", "spellKey": "Q" },
+      { "spellID": "AkshanW", "spellName": "Going Rogue", "spellKey": "W" },
+      { "spellID": "AkshanE", "spellName": "Heroic Swing", "spellKey": "E" }
+    ],
+    "championID": "Akshan",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Alistar",
+    "championTitle": "the Minotaur",
+    "abilities": [
+      { "spellID": "Pulverize", "spellName": "Pulverize", "spellKey": "Q" },
+      { "spellID": "Headbutt", "spellName": "Headbutt", "spellKey": "W" },
+      { "spellID": "AlistarE", "spellName": "Trample", "spellKey": "E" }
+    ],
+    "championID": "Alistar",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Amumu",
+    "championTitle": "the Sad Mummy",
+    "abilities": [
+      {
+        "spellID": "BandageToss",
+        "spellName": "Bandage Toss",
+        "spellKey": "Q"
+      },
+      { "spellID": "AuraofDespair", "spellName": "Despair", "spellKey": "W" },
+      { "spellID": "Tantrum", "spellName": "Tantrum", "spellKey": "E" }
+    ],
+    "championID": "Amumu",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Anivia",
+    "championTitle": "the Cryophoenix",
+    "abilities": [
+      { "spellID": "FlashFrost", "spellName": "Flash Frost", "spellKey": "Q" },
+      { "spellID": "Crystallize", "spellName": "Crystallize", "spellKey": "W" },
+      { "spellID": "Frostbite", "spellName": "Frostbite", "spellKey": "E" }
+    ],
+    "championID": "Anivia",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Annie",
+    "championTitle": "the Dark Child",
+    "abilities": [
+      { "spellID": "AnnieQ", "spellName": "Disintegrate", "spellKey": "Q" },
+      { "spellID": "AnnieW", "spellName": "Incinerate", "spellKey": "W" },
+      { "spellID": "AnnieE", "spellName": "Molten Shield", "spellKey": "E" }
+    ],
+    "championID": "Annie",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Aphelios",
+    "championTitle": "the Weapon of the Faithful",
+    "abilities": [
+      {
+        "spellID": "ApheliosQ_ClientTooltipWrapper",
+        "spellName": "Weapon Abilites",
+        "spellKey": "Q"
+      }
+    ],
+    "championID": "Aphelios",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Ashe",
+    "championTitle": "the Frost Archer",
+    "abilities": [
+      { "spellID": "AsheQ", "spellName": "Ranger's Focus", "spellKey": "Q" },
+      { "spellID": "Volley", "spellName": "Volley", "spellKey": "W" },
+      {
+        "spellID": "AsheSpiritOfTheHawk",
+        "spellName": "Hawkshot",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Ashe",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Aurelion Sol",
+    "championTitle": "the Star Forger",
+    "abilities": [
+      { "spellID": "AurelionSolQ", "spellName": "Starsurge", "spellKey": "Q" },
+      {
+        "spellID": "AurelionSolW",
+        "spellName": "Celestial Expansion",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "AurelionSolE",
+        "spellName": "Comet of Legend",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "AurelionSol",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Azir",
+    "championTitle": "the Emperor of the Sands",
+    "abilities": [
+      {
+        "spellID": "AzirQWrapper",
+        "spellName": "Conquering Sands",
+        "spellKey": "Q"
+      },
+      { "spellID": "AzirW", "spellName": "Arise!", "spellKey": "W" },
+      {
+        "spellID": "AzirEWrapper",
+        "spellName": "Shifting Sands",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Azir",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Bard",
+    "championTitle": "the Wandering Caretaker",
+    "abilities": [
+      { "spellID": "BardQ", "spellName": "Cosmic Binding", "spellKey": "Q" },
+      {
+        "spellID": "BardW",
+        "spellName": "Caretaker's Shrine",
+        "spellKey": "W"
+      },
+      { "spellID": "BardE", "spellName": "Magical Journey", "spellKey": "E" }
+    ],
+    "championID": "Bard",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Bel'Veth",
+    "championTitle": "the Empress of the Void",
+    "abilities": [
+      { "spellID": "BelvethQ", "spellName": "Void Surge", "spellKey": "Q" },
+      {
+        "spellID": "BelvethW",
+        "spellName": "Above and Below",
+        "spellKey": "W"
+      },
+      { "spellID": "BelvethE", "spellName": "Royal Maelstrom", "spellKey": "E" }
+    ],
+    "championID": "Belveth",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": false
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Blitzcrank",
+    "championTitle": "the Great Steam Golem",
+    "abilities": [
+      { "spellID": "RocketGrab", "spellName": "Rocket Grab", "spellKey": "Q" },
+      { "spellID": "Overdrive", "spellName": "Overdrive", "spellKey": "W" },
+      { "spellID": "PowerFist", "spellName": "Power Fist", "spellKey": "E" }
+    ],
+    "championID": "Blitzcrank",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Brand",
+    "championTitle": "the Burning Vengeance",
+    "abilities": [
+      { "spellID": "BrandQ", "spellName": "Sear", "spellKey": "Q" },
+      { "spellID": "BrandW", "spellName": "Pillar of Flame", "spellKey": "W" },
+      { "spellID": "BrandE", "spellName": "Conflagration", "spellKey": "E" }
+    ],
+    "championID": "Brand",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Braum",
+    "championTitle": "the Heart of the Freljord",
+    "abilities": [
+      { "spellID": "BraumQ", "spellName": "Winter's Bite", "spellKey": "Q" },
+      { "spellID": "BraumW", "spellName": "Stand Behind Me", "spellKey": "W" },
+      { "spellID": "BraumE", "spellName": "Unbreakable", "spellKey": "E" }
+    ],
+    "championID": "Braum",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Caitlyn",
+    "championTitle": "the Sheriff of Piltover",
+    "abilities": [
+      {
+        "spellID": "CaitlynQ",
+        "spellName": "Piltover Peacemaker",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "CaitlynW",
+        "spellName": "Yordle Snap Trap",
+        "spellKey": "W"
+      },
+      { "spellID": "CaitlynE", "spellName": "90 Caliber Net", "spellKey": "E" }
+    ],
+    "championID": "Caitlyn",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Camille",
+    "championTitle": "the Steel Shadow",
+    "abilities": [
+      {
+        "spellID": "CamilleQ",
+        "spellName": "Precision Protocol",
+        "spellKey": "Q"
+      },
+      { "spellID": "CamilleW", "spellName": "Tactical Sweep", "spellKey": "W" },
+      { "spellID": "CamilleE", "spellName": "Hookshot", "spellKey": "E" }
+    ],
+    "championID": "Camille",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": false,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Cassiopeia",
+    "championTitle": "the Serpent's Embrace",
+    "abilities": [
+      {
+        "spellID": "CassiopeiaQ",
+        "spellName": "Noxious Blast",
+        "spellKey": "Q"
+      },
+      { "spellID": "CassiopeiaW", "spellName": "Miasma", "spellKey": "W" },
+      { "spellID": "CassiopeiaE", "spellName": "Twin Fang", "spellKey": "E" }
+    ],
+    "championID": "Cassiopeia",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Cho'Gath",
+    "championTitle": "the Terror of the Void",
+    "abilities": [
+      { "spellID": "Rupture", "spellName": "Rupture", "spellKey": "Q" },
+      {
+        "spellID": "FeralScream",
+        "spellName": "Feral Scream",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "VorpalSpikes",
+        "spellName": "Vorpal Spikes",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Chogath",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Corki",
+    "championTitle": "the Daring Bombardier",
+    "abilities": [
+      {
+        "spellID": "PhosphorusBomb",
+        "spellName": "Phosphorus Bomb",
+        "spellKey": "Q"
+      },
+      { "spellID": "CarpetBomb", "spellName": "Valkyrie", "spellKey": "W" },
+      { "spellID": "GGun", "spellName": "Gatling Gun", "spellKey": "E" }
+    ],
+    "championID": "Corki",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Darius",
+    "championTitle": "the Hand of Noxus",
+    "abilities": [
+      { "spellID": "DariusCleave", "spellName": "Decimate", "spellKey": "Q" },
+      {
+        "spellID": "DariusNoxianTacticsONH",
+        "spellName": "Crippling Strike",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "DariusAxeGrabCone",
+        "spellName": "Apprehend",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Darius",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Diana",
+    "championTitle": "Scorn of the Moon",
+    "abilities": [
+      { "spellID": "DianaQ", "spellName": "Crescent Strike", "spellKey": "Q" },
+      { "spellID": "DianaOrbs", "spellName": "Pale Cascade", "spellKey": "W" },
+      { "spellID": "DianaTeleport", "spellName": "Lunar Rush", "spellKey": "E" }
+    ],
+    "championID": "Diana",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Draven",
+    "championTitle": "the Glorious Executioner",
+    "abilities": [
+      {
+        "spellID": "DravenSpinning",
+        "spellName": "Spinning Axe",
+        "spellKey": "Q"
+      },
+      { "spellID": "DravenFury", "spellName": "Blood Rush", "spellKey": "W" },
+      {
+        "spellID": "DravenDoubleShot",
+        "spellName": "Stand Aside",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Draven",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Dr. Mundo",
+    "championTitle": "the Madman of Zaun",
+    "abilities": [
+      {
+        "spellID": "DrMundoQ",
+        "spellName": "Infected Bonesaw",
+        "spellKey": "Q"
+      },
+      { "spellID": "DrMundoW", "spellName": "Heart Zapper", "spellKey": "W" },
+      {
+        "spellID": "DrMundoE",
+        "spellName": "Blunt Force Trauma",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "DrMundo",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Ekko",
+    "championTitle": "the Boy Who Shattered Time",
+    "abilities": [
+      { "spellID": "EkkoQ", "spellName": "Timewinder", "spellKey": "Q" },
+      {
+        "spellID": "EkkoW",
+        "spellName": "Parallel Convergence",
+        "spellKey": "W"
+      },
+      { "spellID": "EkkoE", "spellName": "Phase Dive", "spellKey": "E" }
+    ],
+    "championID": "Ekko",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Elise",
+    "championTitle": "the Spider Queen",
+    "abilities": [
+      {
+        "spellID": "EliseHumanQ",
+        "spellName": "Neurotoxin / Venomous Bite",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "EliseHumanW",
+        "spellName": "Volatile Spiderling / Skittering Frenzy",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "EliseHumanE",
+        "spellName": "Cocoon / Rappel",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Elise",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Evelynn",
+    "championTitle": "Agony's Embrace",
+    "abilities": [
+      { "spellID": "EvelynnQ", "spellName": "Hate Spike", "spellKey": "Q" },
+      { "spellID": "EvelynnW", "spellName": "Allure", "spellKey": "W" },
+      { "spellID": "EvelynnE", "spellName": "Whiplash", "spellKey": "E" }
+    ],
+    "championID": "Evelynn",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Ezreal",
+    "championTitle": "the Prodigal Explorer",
+    "abilities": [
+      { "spellID": "EzrealQ", "spellName": "Mystic Shot", "spellKey": "Q" },
+      { "spellID": "EzrealW", "spellName": "Essence Flux", "spellKey": "W" },
+      { "spellID": "EzrealE", "spellName": "Arcane Shift", "spellKey": "E" }
+    ],
+    "championID": "Ezreal",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Fiddlesticks",
+    "championTitle": "the Ancient Fear",
+    "abilities": [
+      { "spellID": "FiddleSticksQ", "spellName": "Terrify", "spellKey": "Q" },
+      {
+        "spellID": "FiddleSticksW",
+        "spellName": "Bountiful Harvest",
+        "spellKey": "W"
+      },
+      { "spellID": "FiddleSticksE", "spellName": "Reap", "spellKey": "E" }
+    ],
+    "championID": "Fiddlesticks",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Fiora",
+    "championTitle": "the Grand Duelist",
+    "abilities": [
+      { "spellID": "FioraQ", "spellName": "Lunge", "spellKey": "Q" },
+      { "spellID": "FioraW", "spellName": "Riposte", "spellKey": "W" },
+      { "spellID": "FioraE", "spellName": "Bladework", "spellKey": "E" }
+    ],
+    "championID": "Fiora",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Fizz",
+    "championTitle": "the Tidal Trickster",
+    "abilities": [
+      { "spellID": "FizzQ", "spellName": "Urchin Strike", "spellKey": "Q" },
+      { "spellID": "FizzW", "spellName": "Seastone Trident", "spellKey": "W" },
+      {
+        "spellID": "FizzE",
+        "spellName": "Playful / Trickster",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Fizz",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Galio",
+    "championTitle": "the Colossus",
+    "abilities": [
+      { "spellID": "GalioQ", "spellName": "Winds of War", "spellKey": "Q" },
+      { "spellID": "GalioW", "spellName": "Shield of Durand", "spellKey": "W" },
+      { "spellID": "GalioE", "spellName": "Justice Punch", "spellKey": "E" }
+    ],
+    "championID": "Galio",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Gangplank",
+    "championTitle": "the Saltwater Scourge",
+    "abilities": [
+      {
+        "spellID": "GangplankQWrapper",
+        "spellName": "Parrrley",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "GangplankW",
+        "spellName": "Remove Scurvy",
+        "spellKey": "W"
+      },
+      { "spellID": "GangplankE", "spellName": "Powder Keg", "spellKey": "E" }
+    ],
+    "championID": "Gangplank",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Garen",
+    "championTitle": "the Might of Demacia",
+    "abilities": [
+      { "spellID": "GarenQ", "spellName": "Decisive Strike", "spellKey": "Q" },
+      { "spellID": "GarenW", "spellName": "Courage", "spellKey": "W" },
+      { "spellID": "GarenE", "spellName": "Judgment", "spellKey": "E" }
+    ],
+    "championID": "Garen",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "nothing",
+    "championName": "Gnar",
+    "championTitle": "the Missing Link",
+    "abilities": [
+      {
+        "spellID": "GnarQ",
+        "spellName": "Boomerang Throw / Boulder Toss",
+        "spellKey": "Q"
+      },
+      { "spellID": "GnarW", "spellName": "Hyper / Wallop", "spellKey": "W" },
+      { "spellID": "GnarE", "spellName": "Hop / Crunch", "spellKey": "E" }
+    ],
+    "championID": "Gnar",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Gragas",
+    "championTitle": "the Rabble Rouser",
+    "abilities": [
+      { "spellID": "GragasQ", "spellName": "Barrel Roll", "spellKey": "Q" },
+      { "spellID": "GragasW", "spellName": "Drunken Rage", "spellKey": "W" },
+      { "spellID": "GragasE", "spellName": "Body Slam", "spellKey": "E" }
+    ],
+    "championID": "Gragas",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Graves",
+    "championTitle": "the Outlaw",
+    "abilities": [
+      {
+        "spellID": "GravesQLineSpell",
+        "spellName": "End of the Line",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "GravesSmokeGrenade",
+        "spellName": "Smoke Screen",
+        "spellKey": "W"
+      },
+      { "spellID": "GravesMove", "spellName": "Quickdraw", "spellKey": "E" }
+    ],
+    "championID": "Graves",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Gwen",
+    "championTitle": "the Hallowed Seamstress",
+    "abilities": [
+      { "spellID": "GwenQ", "spellName": "Snip Snip!", "spellKey": "Q" },
+      { "spellID": "GwenW", "spellName": "Hallowed Mist", "spellKey": "W" },
+      { "spellID": "GwenE", "spellName": "Skip 'n Slash", "spellKey": "E" }
+    ],
+    "championID": "Gwen",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Hecarim",
+    "championTitle": "the Shadow of War",
+    "abilities": [
+      {
+        "spellID": "HecarimRapidSlash",
+        "spellName": "Rampage",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "HecarimW",
+        "spellName": "Spirit of Dread",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "HecarimRamp",
+        "spellName": "Devastating Charge",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Hecarim",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Heimerdinger",
+    "championTitle": "the Revered Inventor",
+    "abilities": [
+      {
+        "spellID": "HeimerdingerQ",
+        "spellName": "H-28 G Evolution Turret",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "HeimerdingerW",
+        "spellName": "Hextech Micro-Rockets",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "HeimerdingerE",
+        "spellName": "CH-2 Electron Storm Grenade",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Heimerdinger",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Illaoi",
+    "championTitle": "the Kraken Priestess",
+    "abilities": [
+      { "spellID": "IllaoiQ", "spellName": "Tentacle Smash", "spellKey": "Q" },
+      { "spellID": "IllaoiW", "spellName": "Harsh Lesson", "spellKey": "W" },
+      { "spellID": "IllaoiE", "spellName": "Test of Spirit", "spellKey": "E" }
+    ],
+    "championID": "Illaoi",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Irelia",
+    "championTitle": "the Blade Dancer",
+    "abilities": [
+      { "spellID": "IreliaQ", "spellName": "Bladesurge", "spellKey": "Q" },
+      { "spellID": "IreliaW", "spellName": "Defiant Dance", "spellKey": "W" },
+      { "spellID": "IreliaE", "spellName": "Flawless Duet", "spellKey": "E" }
+    ],
+    "championID": "Irelia",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Ivern",
+    "championTitle": "the Green Father",
+    "abilities": [
+      { "spellID": "IvernQ", "spellName": "Rootcaller", "spellKey": "Q" },
+      { "spellID": "IvernW", "spellName": "Brushmaker", "spellKey": "W" },
+      { "spellID": "IvernE", "spellName": "Triggerseed", "spellKey": "E" }
+    ],
+    "championID": "Ivern",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Janna",
+    "championTitle": "the Storm's Fury",
+    "abilities": [
+      {
+        "spellID": "HowlingGale",
+        "spellName": "Howling Gale",
+        "spellKey": "Q"
+      },
+      { "spellID": "SowTheWind", "spellName": "Zephyr", "spellKey": "W" },
+      {
+        "spellID": "EyeOfTheStorm",
+        "spellName": "Eye Of The Storm",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Janna",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Jarvan IV",
+    "championTitle": "the Exemplar of Demacia",
+    "abilities": [
+      {
+        "spellID": "JarvanIVDragonStrike",
+        "spellName": "Dragon Strike",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "JarvanIVGoldenAegis",
+        "spellName": "Golden Aegis",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "JarvanIVDemacianStandard",
+        "spellName": "Demacian Standard",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "JarvanIV",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Jax",
+    "championTitle": "Grandmaster at Arms",
+    "abilities": [
+      {
+        "spellID": "JaxLeapStrike",
+        "spellName": "Leap Strike",
+        "spellKey": "Q"
+      },
+      { "spellID": "JaxEmpowerTwo", "spellName": "Empower", "spellKey": "W" },
+      {
+        "spellID": "JaxCounterStrike",
+        "spellName": "Counter Strike",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Jax",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Jayce",
+    "championTitle": "the Defender of Tomorrow",
+    "abilities": [
+      {
+        "spellID": "JayceToTheSkies",
+        "spellName": "To the Skies! / Shock Blast",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "JayceStaticField",
+        "spellName": "Lightning Field / Hyper Charge",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "JayceThunderingBlow",
+        "spellName": "Thundering Blow / Acceleration Gate",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Jayce",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Jhin",
+    "championTitle": "the Virtuoso",
+    "abilities": [
+      { "spellID": "JhinQ", "spellName": "Dancing Grenade", "spellKey": "Q" },
+      { "spellID": "JhinW", "spellName": "Deadly Flourish", "spellKey": "W" },
+      { "spellID": "JhinE", "spellName": "Captive Audience", "spellKey": "E" }
+    ],
+    "championID": "Jhin",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Jinx",
+    "championTitle": "the Loose Cannon",
+    "abilities": [
+      { "spellID": "JinxQ", "spellName": "Switcheroo!", "spellKey": "Q" },
+      { "spellID": "JinxW", "spellName": "Zap!", "spellKey": "W" },
+      { "spellID": "JinxE", "spellName": "Flame Chompers!", "spellKey": "E" }
+    ],
+    "championID": "Jinx",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Kai'Sa",
+    "championTitle": "Daughter of the Void",
+    "abilities": [
+      { "spellID": "KaisaQ", "spellName": "Icathian Rain", "spellKey": "Q" },
+      { "spellID": "KaisaW", "spellName": "Void Seeker", "spellKey": "W" },
+      { "spellID": "KaisaE", "spellName": "Supercharge", "spellKey": "E" }
+    ],
+    "championID": "Kaisa",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Kalista",
+    "championTitle": "the Spear of Vengeance",
+    "abilities": [
+      {
+        "spellID": "KalistaMysticShot",
+        "spellName": "Pierce",
+        "spellKey": "Q"
+      },
+      { "spellID": "KalistaW", "spellName": "Sentinel", "spellKey": "W" },
+      {
+        "spellID": "KalistaExpungeWrapper",
+        "spellName": "Rend",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Kalista",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Karma",
+    "championTitle": "the Enlightened One",
+    "abilities": [
+      { "spellID": "KarmaQ", "spellName": "Inner Flame", "spellKey": "Q" },
+      {
+        "spellID": "KarmaSpiritBind",
+        "spellName": "Focused Resolve",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "KarmaSolKimShield",
+        "spellName": "Inspire",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Karma",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Karthus",
+    "championTitle": "the Deathsinger",
+    "abilities": [
+      {
+        "spellID": "KarthusLayWasteA1",
+        "spellName": "Lay Waste",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "KarthusWallOfPain",
+        "spellName": "Wall of Pain",
+        "spellKey": "W"
+      },
+      { "spellID": "KarthusDefile", "spellName": "Defile", "spellKey": "E" }
+    ],
+    "championID": "Karthus",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Kassadin",
+    "championTitle": "the Void Walker",
+    "abilities": [
+      { "spellID": "NullLance", "spellName": "Null Sphere", "spellKey": "Q" },
+      {
+        "spellID": "NetherBlade",
+        "spellName": "Nether Blade",
+        "spellKey": "W"
+      },
+      { "spellID": "ForcePulse", "spellName": "Force Pulse", "spellKey": "E" }
+    ],
+    "championID": "Kassadin",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Katarina",
+    "championTitle": "the Sinister Blade",
+    "abilities": [
+      {
+        "spellID": "KatarinaQ",
+        "spellName": "Bouncing Blade",
+        "spellKey": "Q"
+      },
+      { "spellID": "KatarinaW", "spellName": "Preparation", "spellKey": "W" },
+      { "spellID": "KatarinaEWrapper", "spellName": "Shunpo", "spellKey": "E" }
+    ],
+    "championID": "Katarina",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Kayle",
+    "championTitle": "the Righteous",
+    "abilities": [
+      { "spellID": "KayleQ", "spellName": "Radiant Blast", "spellKey": "Q" },
+      {
+        "spellID": "KayleW",
+        "spellName": "Celestial Blessing",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "KayleE",
+        "spellName": "Starfire Spellblade",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Kayle",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Kayn",
+    "championTitle": "the Shadow Reaper",
+    "abilities": [
+      { "spellID": "KaynQ", "spellName": "Reaping Slash", "spellKey": "Q" },
+      { "spellID": "KaynW", "spellName": "Blade's Reach", "spellKey": "W" },
+      { "spellID": "KaynE", "spellName": "Shadow Step", "spellKey": "E" }
+    ],
+    "championID": "Kayn",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "energy",
+    "championName": "Kennen",
+    "championTitle": "the Heart of the Tempest",
+    "abilities": [
+      {
+        "spellID": "KennenShurikenHurlMissile1",
+        "spellName": "Thundering Shuriken",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "KennenBringTheLight",
+        "spellName": "Electrical Surge",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "KennenLightningRush",
+        "spellName": "Lightning Rush",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Kennen",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Kha'Zix",
+    "championTitle": "the Voidreaver",
+    "abilities": [
+      {
+        "spellID": "KhazixQ",
+        "spellName": "Taste Their Fear",
+        "spellKey": "Q"
+      },
+      { "spellID": "KhazixW", "spellName": "Void Spike", "spellKey": "W" },
+      { "spellID": "KhazixE", "spellName": "Leap", "spellKey": "E" }
+    ],
+    "championID": "Khazix",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Kindred",
+    "championTitle": "the Eternal Hunters",
+    "abilities": [
+      {
+        "spellID": "KindredQ",
+        "spellName": "Dance of Arrows",
+        "spellKey": "Q"
+      },
+      { "spellID": "KindredW", "spellName": "Wolf's Frenzy", "spellKey": "W" },
+      {
+        "spellID": "KindredEWrapper",
+        "spellName": "Mounting Dread",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Kindred",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Kled",
+    "championTitle": "the Cantankerous Cavalier",
+    "abilities": [
+      {
+        "spellID": "KledQ",
+        "spellName": "Bear Trap on a Rope",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "KledW",
+        "spellName": "Violent Tendencies",
+        "spellKey": "W"
+      },
+      { "spellID": "KledE", "spellName": "Jousting", "spellKey": "E" }
+    ],
+    "championID": "Kled",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Kog'Maw",
+    "championTitle": "the Mouth of the Abyss",
+    "abilities": [
+      { "spellID": "KogMawQ", "spellName": "Caustic Spittle", "spellKey": "Q" },
+      {
+        "spellID": "KogMawBioArcaneBarrage",
+        "spellName": "Bio-Arcane Barrage",
+        "spellKey": "W"
+      },
+      { "spellID": "KogMawVoidOoze", "spellName": "Void Ooze", "spellKey": "E" }
+    ],
+    "championID": "KogMaw",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "LeBlanc",
+    "championTitle": "the Deceiver",
+    "abilities": [
+      {
+        "spellID": "LeblancQ",
+        "spellName": "Sigil of Malice",
+        "spellKey": "Q"
+      },
+      { "spellID": "LeblancW", "spellName": "Distortion", "spellKey": "W" },
+      { "spellID": "LeblancE", "spellName": "Ethereal Chains", "spellKey": "E" }
+    ],
+    "championID": "Leblanc",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "energy",
+    "championName": "Lee Sin",
+    "championTitle": "the Blind Monk",
+    "abilities": [
+      {
+        "spellID": "BlindMonkQOne",
+        "spellName": "Sonic Wave / Resonating Strike",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "BlindMonkWOne",
+        "spellName": "Safeguard / Iron Will",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "BlindMonkEOne",
+        "spellName": "Tempest / Cripple",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "LeeSin",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Leona",
+    "championTitle": "the Radiant Dawn",
+    "abilities": [
+      {
+        "spellID": "LeonaShieldOfDaybreak",
+        "spellName": "Shield of Daybreak",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "LeonaSolarBarrier",
+        "spellName": "Eclipse",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "LeonaZenithBlade",
+        "spellName": "Zenith Blade",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Leona",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Lillia",
+    "championTitle": "the Bashful Bloom",
+    "abilities": [
+      { "spellID": "LilliaQ", "spellName": "Blooming Blows", "spellKey": "Q" },
+      { "spellID": "LilliaW", "spellName": "Watch Out! Eep!", "spellKey": "W" },
+      { "spellID": "LilliaE", "spellName": "Swirlseed", "spellKey": "E" }
+    ],
+    "championID": "Lillia",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Lissandra",
+    "championTitle": "the Ice Witch",
+    "abilities": [
+      { "spellID": "LissandraQ", "spellName": "Ice Shard", "spellKey": "Q" },
+      {
+        "spellID": "LissandraW",
+        "spellName": "Ring of Frost",
+        "spellKey": "W"
+      },
+      { "spellID": "LissandraE", "spellName": "Glacial Path", "spellKey": "E" }
+    ],
+    "championID": "Lissandra",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Lucian",
+    "championTitle": "the Purifier",
+    "abilities": [
+      { "spellID": "LucianQ", "spellName": "Piercing Light", "spellKey": "Q" },
+      { "spellID": "LucianW", "spellName": "Ardent Blaze", "spellKey": "W" },
+      {
+        "spellID": "LucianE",
+        "spellName": "Relentless Pursuit",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Lucian",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Lulu",
+    "championTitle": "the Fae Sorceress",
+    "abilities": [
+      { "spellID": "LuluQ", "spellName": "Glitterlance", "spellKey": "Q" },
+      { "spellID": "LuluW", "spellName": "Whimsy", "spellKey": "W" },
+      { "spellID": "LuluE", "spellName": "Help, Pix!", "spellKey": "E" }
+    ],
+    "championID": "Lulu",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Lux",
+    "championTitle": "the Lady of Luminosity",
+    "abilities": [
+      {
+        "spellID": "LuxLightBinding",
+        "spellName": "Light Binding",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "LuxPrismaticWave",
+        "spellName": "Prismatic Barrier",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "LuxLightStrikeKugel",
+        "spellName": "Lucent Singularity",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Lux",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Malphite",
+    "championTitle": "Shard of the Monolith",
+    "abilities": [
+      {
+        "spellID": "SeismicShard",
+        "spellName": "Seismic Shard",
+        "spellKey": "Q"
+      },
+      { "spellID": "Obduracy", "spellName": "Thunderclap", "spellKey": "W" },
+      { "spellID": "Landslide", "spellName": "Ground Slam", "spellKey": "E" }
+    ],
+    "championID": "Malphite",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Malzahar",
+    "championTitle": "the Prophet of the Void",
+    "abilities": [
+      {
+        "spellID": "MalzaharQ",
+        "spellName": "Call of the Void",
+        "spellKey": "Q"
+      },
+      { "spellID": "MalzaharW", "spellName": "Void Swarm", "spellKey": "W" },
+      {
+        "spellID": "MalzaharE",
+        "spellName": "Malefic Visions",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Malzahar",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Maokai",
+    "championTitle": "the Twisted Treant",
+    "abilities": [
+      { "spellID": "MaokaiQ", "spellName": "Bramble Smash", "spellKey": "Q" },
+      { "spellID": "MaokaiW", "spellName": "Twisted Advance", "spellKey": "W" },
+      { "spellID": "MaokaiE", "spellName": "Sapling Toss", "spellKey": "E" }
+    ],
+    "championID": "Maokai",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Master Yi",
+    "championTitle": "the Wuju Bladesman",
+    "abilities": [
+      {
+        "spellID": "AlphaStrike",
+        "spellName": "Alpha Strike",
+        "spellKey": "Q"
+      },
+      { "spellID": "Meditate", "spellName": "Meditate", "spellKey": "W" },
+      { "spellID": "WujuStyle", "spellName": "Wuju Style", "spellKey": "E" }
+    ],
+    "championID": "MasterYi",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Miss Fortune",
+    "championTitle": "the Bounty Hunter",
+    "abilities": [
+      {
+        "spellID": "MissFortuneRicochetShot",
+        "spellName": "Double Up",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "MissFortuneViciousStrikes",
+        "spellName": "Strut",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "MissFortuneScattershot",
+        "spellName": "Make It Rain",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "MissFortune",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Wukong",
+    "championTitle": "the Monkey King",
+    "abilities": [
+      {
+        "spellID": "MonkeyKingDoubleAttack",
+        "spellName": "Crushing Blow",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "MonkeyKingDecoy",
+        "spellName": "Warrior Trickster",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "MonkeyKingNimbus",
+        "spellName": "Nimbus Strike",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "MonkeyKing",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Mordekaiser",
+    "championTitle": "the Iron Revenant",
+    "abilities": [
+      { "spellID": "MordekaiserQ", "spellName": "Obliterate", "spellKey": "Q" },
+      {
+        "spellID": "MordekaiserW",
+        "spellName": "Indestructible",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "MordekaiserE",
+        "spellName": "Death's Grasp",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Mordekaiser",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Morgana",
+    "championTitle": "the Fallen",
+    "abilities": [
+      { "spellID": "MorganaQ", "spellName": "Dark Binding", "spellKey": "Q" },
+      {
+        "spellID": "MorganaW",
+        "spellName": "Tormented Shadow",
+        "spellKey": "W"
+      },
+      { "spellID": "MorganaE", "spellName": "Black Shield", "spellKey": "E" }
+    ],
+    "championID": "Morgana",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Nami",
+    "championTitle": "the Tidecaller",
+    "abilities": [
+      { "spellID": "NamiQ", "spellName": "Aqua Prison", "spellKey": "Q" },
+      { "spellID": "NamiW", "spellName": "Ebb and Flow", "spellKey": "W" },
+      {
+        "spellID": "NamiE",
+        "spellName": "Tidecaller's Blessing",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Nami",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Nasus",
+    "championTitle": "the Curator of the Sands",
+    "abilities": [
+      { "spellID": "NasusQ", "spellName": "Siphoning Strike", "spellKey": "Q" },
+      { "spellID": "NasusW", "spellName": "Wither", "spellKey": "W" },
+      { "spellID": "NasusE", "spellName": "Spirit Fire", "spellKey": "E" }
+    ],
+    "championID": "Nasus",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Nautilus",
+    "championTitle": "the Titan of the Depths",
+    "abilities": [
+      {
+        "spellID": "NautilusAnchorDrag",
+        "spellName": "Dredge Line",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "NautilusPiercingGaze",
+        "spellName": "Titan's Wrath",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "NautilusSplashZone",
+        "spellName": "Riptide",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Nautilus",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Neeko",
+    "championTitle": "the Curious Chameleon",
+    "abilities": [
+      { "spellID": "NeekoQ", "spellName": "Blooming Burst", "spellKey": "Q" },
+      { "spellID": "NeekoW", "spellName": "Shapesplitter", "spellKey": "W" },
+      { "spellID": "NeekoE", "spellName": "Tangle-Barbs", "spellKey": "E" }
+    ],
+    "championID": "Neeko",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Nidalee",
+    "championTitle": "the Bestial Huntress",
+    "abilities": [
+      {
+        "spellID": "JavelinToss",
+        "spellName": "Javelin Toss / Takedown",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "Bushwhack",
+        "spellName": "Bushwhack / Pounce",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "PrimalSurge",
+        "spellName": "Primal Surge / Swipe",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Nidalee",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Nilah",
+    "championTitle": "the Joy Unbound",
+    "abilities": [
+      { "spellID": "NilahQ", "spellName": "Formless Blade", "spellKey": "Q" },
+      { "spellID": "NilahW", "spellName": "Jubilant Veil", "spellKey": "W" },
+      { "spellID": "NilahE", "spellName": "Slipstream", "spellKey": "E" }
+    ],
+    "championID": "Nilah",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Nocturne",
+    "championTitle": "the Eternal Nightmare",
+    "abilities": [
+      {
+        "spellID": "NocturneDuskbringer",
+        "spellName": "Duskbringer",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "NocturneShroudofDarkness",
+        "spellName": "Shroud of Darkness",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "NocturneUnspeakableHorror",
+        "spellName": "Unspeakable Horror",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Nocturne",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Nunu & Willump",
+    "championTitle": "the Boy and His Yeti",
+    "abilities": [
+      { "spellID": "NunuQ", "spellName": "Consume", "spellKey": "Q" },
+      {
+        "spellID": "NunuW",
+        "spellName": "Biggest Snowball Ever!",
+        "spellKey": "W"
+      },
+      { "spellID": "NunuE", "spellName": "Snowball Barrage", "spellKey": "E" }
+    ],
+    "championID": "Nunu",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Olaf",
+    "championTitle": "the Berserker",
+    "abilities": [
+      {
+        "spellID": "OlafAxeThrowCast",
+        "spellName": "Undertow",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "OlafFrenziedStrikes",
+        "spellName": "Tough It Out",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "OlafRecklessStrike",
+        "spellName": "Reckless Swing",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Olaf",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Orianna",
+    "championTitle": "the Lady of Clockwork",
+    "abilities": [
+      {
+        "spellID": "OrianaIzunaCommand",
+        "spellName": "Command: Attack",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "OrianaDissonanceCommand",
+        "spellName": "Command: Dissonance",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "OrianaRedactCommand",
+        "spellName": "Command: Protect",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Orianna",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Ornn",
+    "championTitle": "the Fire below the Mountain",
+    "abilities": [
+      { "spellID": "OrnnQ", "spellName": "Volcanic Rupture", "spellKey": "Q" },
+      { "spellID": "OrnnW", "spellName": "Bellows Breath", "spellKey": "W" },
+      { "spellID": "OrnnE", "spellName": "Searing Charge", "spellKey": "E" }
+    ],
+    "championID": "Ornn",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Pantheon",
+    "championTitle": "the Unbreakable Spear",
+    "abilities": [
+      { "spellID": "PantheonQ", "spellName": "Comet Spear", "spellKey": "Q" },
+      { "spellID": "PantheonW", "spellName": "Shield Vault", "spellKey": "W" },
+      { "spellID": "PantheonE", "spellName": "Aegis Assault", "spellKey": "E" }
+    ],
+    "championID": "Pantheon",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Poppy",
+    "championTitle": "Keeper of the Hammer",
+    "abilities": [
+      { "spellID": "PoppyQ", "spellName": "Hammer Shock", "spellKey": "Q" },
+      {
+        "spellID": "PoppyW",
+        "spellName": "Steadfast Presence",
+        "spellKey": "W"
+      },
+      { "spellID": "PoppyE", "spellName": "Heroic Charge", "spellKey": "E" }
+    ],
+    "championID": "Poppy",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Pyke",
+    "championTitle": "the Bloodharbor Ripper",
+    "abilities": [
+      { "spellID": "PykeQ", "spellName": "Bone Skewer", "spellKey": "Q" },
+      { "spellID": "PykeW", "spellName": "Ghostwater Dive", "spellKey": "W" },
+      { "spellID": "PykeE", "spellName": "Phantom Undertow", "spellKey": "E" }
+    ],
+    "championID": "Pyke",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Qiyana",
+    "championTitle": "Empress of the Elements",
+    "abilities": [
+      {
+        "spellID": "QiyanaQ",
+        "spellName": "Elemental Wrath / Edge of Ixtal",
+        "spellKey": "Q"
+      },
+      { "spellID": "QiyanaW", "spellName": "Terrashape", "spellKey": "W" },
+      { "spellID": "QiyanaE", "spellName": "Audacity", "spellKey": "E" }
+    ],
+    "championID": "Qiyana",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Quinn",
+    "championTitle": "Demacia's Wings",
+    "abilities": [
+      { "spellID": "QuinnQ", "spellName": "Blinding Assault", "spellKey": "Q" },
+      {
+        "spellID": "QuinnW",
+        "spellName": "Heightened Senses",
+        "spellKey": "W"
+      },
+      { "spellID": "QuinnE", "spellName": "Vault", "spellKey": "E" }
+    ],
+    "championID": "Quinn",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Rakan",
+    "championTitle": "the Charmer",
+    "abilities": [
+      { "spellID": "RakanQ", "spellName": "Gleaming Quill", "spellKey": "Q" },
+      { "spellID": "RakanW", "spellName": "Grand Entrance", "spellKey": "W" },
+      { "spellID": "RakanE", "spellName": "Battle Dance", "spellKey": "E" }
+    ],
+    "championID": "Rakan",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Rammus",
+    "championTitle": "the Armordillo",
+    "abilities": [
+      { "spellID": "PowerBall", "spellName": "Powerball", "spellKey": "Q" },
+      {
+        "spellID": "DefensiveBallCurl",
+        "spellName": "Defensive Ball Curl",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "PuncturingTaunt",
+        "spellName": "Frenzying Taunt",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Rammus",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Rek'Sai",
+    "championTitle": "the Void Burrower",
+    "abilities": [
+      {
+        "spellID": "RekSaiQ",
+        "spellName": "Queen's Wrath / Prey Seeker",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "RekSaiW",
+        "spellName": "Burrow / Un-burrow",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "RekSaiE",
+        "spellName": "Furious Bite / Tunnel",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "RekSai",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Rell",
+    "championTitle": "the Iron Maiden",
+    "abilities": [
+      { "spellID": "RellQ", "spellName": "Shattering Strike", "spellKey": "Q" },
+      {
+        "spellID": "RellW_Dismount",
+        "spellName": "Ferromancy: Crash Down",
+        "spellKey": "W"
+      },
+      { "spellID": "RellE", "spellName": "Attract and Repel", "spellKey": "E" }
+    ],
+    "championID": "Rell",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Renata Glasc",
+    "championTitle": "the Chem-Baroness",
+    "abilities": [
+      { "spellID": "RenataQ", "spellName": "Handshake", "spellKey": "Q" },
+      { "spellID": "RenataW", "spellName": "Bailout", "spellKey": "W" },
+      { "spellID": "RenataE", "spellName": "Loyalty Program", "spellKey": "E" }
+    ],
+    "championID": "Renata",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Renekton",
+    "championTitle": "the Butcher of the Sands",
+    "abilities": [
+      {
+        "spellID": "RenektonCleave",
+        "spellName": "Cull the Meek",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "RenektonPreExecute",
+        "spellName": "Ruthless Predator",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "RenektonSliceAndDice",
+        "spellName": "Slice and Dice",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Renekton",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Rengar",
+    "championTitle": "the Pridestalker",
+    "abilities": [
+      { "spellID": "RengarQ", "spellName": "Savagery", "spellKey": "Q" },
+      { "spellID": "RengarW", "spellName": "Battle Roar", "spellKey": "W" },
+      { "spellID": "RengarE", "spellName": "Bola Strike", "spellKey": "E" }
+    ],
+    "championID": "Rengar",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Riven",
+    "championTitle": "the Exile",
+    "abilities": [
+      {
+        "spellID": "RivenTriCleave",
+        "spellName": "Broken Wings",
+        "spellKey": "Q"
+      },
+      { "spellID": "RivenMartyr", "spellName": "Ki Burst", "spellKey": "W" },
+      { "spellID": "RivenFeint", "spellName": "Valor", "spellKey": "E" }
+    ],
+    "championID": "Riven",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Rumble",
+    "championTitle": "the Mechanized Menace",
+    "abilities": [
+      {
+        "spellID": "RumbleFlameThrower",
+        "spellName": "Flamespitter",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "RumbleShield",
+        "spellName": "Scrap Shield",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "RumbleGrenade",
+        "spellName": "Electro Harpoon",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Rumble",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Ryze",
+    "championTitle": "the Rune Mage",
+    "abilities": [
+      { "spellID": "RyzeQWrapper", "spellName": "Overload", "spellKey": "Q" },
+      { "spellID": "RyzeW", "spellName": "Rune Prison", "spellKey": "W" },
+      { "spellID": "RyzeE", "spellName": "Spell Flux", "spellKey": "E" }
+    ],
+    "championID": "Ryze",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Samira",
+    "championTitle": "the Desert Rose",
+    "abilities": [
+      { "spellID": "SamiraQ", "spellName": "Flair", "spellKey": "Q" },
+      { "spellID": "SamiraW", "spellName": "Blade Whirl", "spellKey": "W" },
+      { "spellID": "SamiraE", "spellName": "Wild Rush", "spellKey": "E" }
+    ],
+    "championID": "Samira",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": false
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Sejuani",
+    "championTitle": "Fury of the North",
+    "abilities": [
+      { "spellID": "SejuaniQ", "spellName": "Arctic Assault", "spellKey": "Q" },
+      { "spellID": "SejuaniW", "spellName": "Winter's Wrath", "spellKey": "W" },
+      { "spellID": "SejuaniE", "spellName": "Permafrost", "spellKey": "E" }
+    ],
+    "championID": "Sejuani",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Senna",
+    "championTitle": "the Redeemer",
+    "abilities": [
+      {
+        "spellID": "SennaQ",
+        "spellName": "Piercing Darkness",
+        "spellKey": "Q"
+      },
+      { "spellID": "SennaW", "spellName": "Last Embrace", "spellKey": "W" },
+      {
+        "spellID": "SennaE",
+        "spellName": "Curse of the Black Mist",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Senna",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Seraphine",
+    "championTitle": "the Starry-Eyed Songstress",
+    "abilities": [
+      { "spellID": "SeraphineQ", "spellName": "High Note", "spellKey": "Q" },
+      {
+        "spellID": "SeraphineW",
+        "spellName": "Surround Sound",
+        "spellKey": "W"
+      },
+      { "spellID": "SeraphineE", "spellName": "Beat Drop", "spellKey": "E" }
+    ],
+    "championID": "Seraphine",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Sett",
+    "championTitle": "the Boss",
+    "abilities": [
+      { "spellID": "SettQ", "spellName": "Knuckle Down", "spellKey": "Q" },
+      { "spellID": "SettW", "spellName": "Haymaker", "spellKey": "W" },
+      { "spellID": "SettE", "spellName": "Facebreaker", "spellKey": "E" }
+    ],
+    "championID": "Sett",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Shaco",
+    "championTitle": "the Demon Jester",
+    "abilities": [
+      { "spellID": "Deceive", "spellName": "Deceive", "spellKey": "Q" },
+      {
+        "spellID": "JackInTheBox",
+        "spellName": "Jack In The Box",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "TwoShivPoison",
+        "spellName": "Two-Shiv Poison",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Shaco",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "energy",
+    "championName": "Shen",
+    "championTitle": "the Eye of Twilight",
+    "abilities": [
+      { "spellID": "ShenQ", "spellName": "Twilight Assault", "spellKey": "Q" },
+      { "spellID": "ShenW", "spellName": "Spirit's Refuge", "spellKey": "W" },
+      { "spellID": "ShenE", "spellName": "Shadow Dash", "spellKey": "E" }
+    ],
+    "championID": "Shen",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Shyvana",
+    "championTitle": "the Half-Dragon",
+    "abilities": [
+      {
+        "spellID": "ShyvanaDoubleAttack",
+        "spellName": "Twin Bite",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "ShyvanaImmolationAura",
+        "spellName": "Burnout",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "ShyvanaFireball",
+        "spellName": "Flame Breath",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Shyvana",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": false
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Singed",
+    "championTitle": "the Mad Chemist",
+    "abilities": [
+      {
+        "spellID": "PoisonTrail",
+        "spellName": "Poison Trail",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "MegaAdhesive",
+        "spellName": "Mega Adhesive",
+        "spellKey": "W"
+      },
+      { "spellID": "Fling", "spellName": "Fling", "spellKey": "E" }
+    ],
+    "championID": "Singed",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Sion",
+    "championTitle": "the Undead Juggernaut",
+    "abilities": [
+      { "spellID": "SionQ", "spellName": "Decimating Smash", "spellKey": "Q" },
+      { "spellID": "SionW", "spellName": "Soul Furnace", "spellKey": "W" },
+      { "spellID": "SionE", "spellName": "Roar of the Slayer", "spellKey": "E" }
+    ],
+    "championID": "Sion",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Sivir",
+    "championTitle": "the Battle Mistress",
+    "abilities": [
+      { "spellID": "SivirQ", "spellName": "Boomerang Blade", "spellKey": "Q" },
+      { "spellID": "SivirW", "spellName": "Ricochet", "spellKey": "W" },
+      { "spellID": "SivirE", "spellName": "Spell Shield", "spellKey": "E" }
+    ],
+    "championID": "Sivir",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Skarner",
+    "championTitle": "the Crystal Vanguard",
+    "abilities": [
+      {
+        "spellID": "SkarnerVirulentSlash",
+        "spellName": "Crystal Slash",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "SkarnerExoskeleton",
+        "spellName": "Crystalline Exoskeleton",
+        "spellKey": "W"
+      },
+      { "spellID": "SkarnerFracture", "spellName": "Fracture", "spellKey": "E" }
+    ],
+    "championID": "Skarner",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Sona",
+    "championTitle": "Maven of the Strings",
+    "abilities": [
+      { "spellID": "SonaQ", "spellName": "Hymn of Valor", "spellKey": "Q" },
+      {
+        "spellID": "SonaW",
+        "spellName": "Aria of Perseverance",
+        "spellKey": "W"
+      },
+      { "spellID": "SonaE", "spellName": "Song of Celerity", "spellKey": "E" }
+    ],
+    "championID": "Sona",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Soraka",
+    "championTitle": "the Starchild",
+    "abilities": [
+      { "spellID": "SorakaQ", "spellName": "Starcall", "spellKey": "Q" },
+      { "spellID": "SorakaW", "spellName": "Astral Infusion", "spellKey": "W" },
+      { "spellID": "SorakaE", "spellName": "Equinox", "spellKey": "E" }
+    ],
+    "championID": "Soraka",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Swain",
+    "championTitle": "the Noxian Grand General",
+    "abilities": [
+      { "spellID": "SwainQ", "spellName": "Death's Hand", "spellKey": "Q" },
+      { "spellID": "SwainW", "spellName": "Vision of Empire", "spellKey": "W" },
+      { "spellID": "SwainE", "spellName": "Nevermove", "spellKey": "E" }
+    ],
+    "championID": "Swain",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Sylas",
+    "championTitle": "the Unshackled",
+    "abilities": [
+      { "spellID": "SylasQ", "spellName": "Chain Lash", "spellKey": "Q" },
+      { "spellID": "SylasW", "spellName": "Kingslayer", "spellKey": "W" },
+      { "spellID": "SylasE", "spellName": "Abscond / Abduct", "spellKey": "E" }
+    ],
+    "championID": "Sylas",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Syndra",
+    "championTitle": "the Dark Sovereign",
+    "abilities": [
+      { "spellID": "SyndraQ", "spellName": "Dark Sphere", "spellKey": "Q" },
+      { "spellID": "SyndraW", "spellName": "Force of Will", "spellKey": "W" },
+      { "spellID": "SyndraE", "spellName": "Scatter the Weak", "spellKey": "E" }
+    ],
+    "championID": "Syndra",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Tahm Kench",
+    "championTitle": "the River King",
+    "abilities": [
+      { "spellID": "TahmKenchQ", "spellName": "Tongue Lash", "spellKey": "Q" },
+      { "spellID": "TahmKenchW", "spellName": "Abyssal Dive", "spellKey": "W" },
+      { "spellID": "TahmKenchE", "spellName": "Thick Skin", "spellKey": "E" }
+    ],
+    "championID": "TahmKench",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Taliyah",
+    "championTitle": "the Stoneweaver",
+    "abilities": [
+      {
+        "spellID": "TaliyahQ",
+        "spellName": "Threaded Volley",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "TaliyahWVC",
+        "spellName": "Seismic Shove",
+        "spellKey": "W"
+      },
+      { "spellID": "TaliyahE", "spellName": "Unraveled Earth", "spellKey": "E" }
+    ],
+    "championID": "Taliyah",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Talon",
+    "championTitle": "the Blade's Shadow",
+    "abilities": [
+      { "spellID": "TalonQ", "spellName": "Noxian Diplomacy", "spellKey": "Q" },
+      { "spellID": "TalonW", "spellName": "Rake", "spellKey": "W" },
+      { "spellID": "TalonE", "spellName": "Assassin's Path", "spellKey": "E" }
+    ],
+    "championID": "Talon",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Taric",
+    "championTitle": "the Shield of Valoran",
+    "abilities": [
+      {
+        "spellID": "TaricQ",
+        "spellName": "Starlight's Touch",
+        "spellKey": "Q"
+      },
+      { "spellID": "TaricW", "spellName": "Bastion", "spellKey": "W" },
+      { "spellID": "TaricE", "spellName": "Dazzle", "spellKey": "E" }
+    ],
+    "championID": "Taric",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Teemo",
+    "championTitle": "the Swift Scout",
+    "abilities": [
+      {
+        "spellID": "BlindingDart",
+        "spellName": "Blinding Dart",
+        "spellKey": "Q"
+      },
+      { "spellID": "MoveQuick", "spellName": "Move Quick", "spellKey": "W" },
+      { "spellID": "ToxicShot", "spellName": "Toxic Shot", "spellKey": "E" }
+    ],
+    "championID": "Teemo",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Thresh",
+    "championTitle": "the Chain Warden",
+    "abilities": [
+      { "spellID": "ThreshQ", "spellName": "Death Sentence", "spellKey": "Q" },
+      { "spellID": "ThreshW", "spellName": "Dark Passage", "spellKey": "W" },
+      { "spellID": "ThreshE", "spellName": "Flay", "spellKey": "E" }
+    ],
+    "championID": "Thresh",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Tristana",
+    "championTitle": "the Yordle Gunner",
+    "abilities": [
+      { "spellID": "TristanaQ", "spellName": "Rapid Fire", "spellKey": "Q" },
+      { "spellID": "TristanaW", "spellName": "Rocket Jump", "spellKey": "W" },
+      {
+        "spellID": "TristanaE",
+        "spellName": "Explosive Charge",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Tristana",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Trundle",
+    "championTitle": "the Troll King",
+    "abilities": [
+      { "spellID": "TrundleTrollSmash", "spellName": "Chomp", "spellKey": "Q" },
+      {
+        "spellID": "trundledesecrate",
+        "spellName": "Frozen Domain",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "TrundleCircle",
+        "spellName": "Pillar of Ice",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Trundle",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Tryndamere",
+    "championTitle": "the Barbarian King",
+    "abilities": [
+      { "spellID": "TryndamereQ", "spellName": "Bloodlust", "spellKey": "Q" },
+      {
+        "spellID": "TryndamereW",
+        "spellName": "Mocking Shout",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "TryndamereE",
+        "spellName": "Spinning Slash",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Tryndamere",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Twisted Fate",
+    "championTitle": "the Card Master",
+    "abilities": [
+      { "spellID": "WildCards", "spellName": "Wild Cards", "spellKey": "Q" },
+      { "spellID": "PickACard", "spellName": "Pick a Card", "spellKey": "W" },
+      {
+        "spellID": "CardmasterStack",
+        "spellName": "Stacked Deck",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "TwistedFate",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Twitch",
+    "championTitle": "the Plague Rat",
+    "abilities": [
+      {
+        "spellID": "TwitchHideInShadows",
+        "spellName": "Ambush",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "TwitchVenomCask",
+        "spellName": "Venom Cask",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "TwitchExpunge",
+        "spellName": "Contaminate",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Twitch",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Udyr",
+    "championTitle": "the Spirit Walker",
+    "abilities": [
+      {
+        "spellID": "UdyrQ",
+        "spellName": "Wilding Claw",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "UdyrW",
+        "spellName": "Iron Mantle",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "UdyrE",
+        "spellName": "Blazing Stampede",
+        "spellKey": "E"
+      },
+      {
+        "spellID": "UdyrR",
+        "spellName": "Wingborne Storm",
+        "spellKey": "R"
+      }
+    ],
+    "championID": "Udyr",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": false
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Urgot",
+    "championTitle": "the Dreadnought",
+    "abilities": [
+      { "spellID": "UrgotQ", "spellName": "Corrosive Charge", "spellKey": "Q" },
+      { "spellID": "UrgotW", "spellName": "Purge", "spellKey": "W" },
+      { "spellID": "UrgotE", "spellName": "Disdain", "spellKey": "E" }
+    ],
+    "championID": "Urgot",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Varus",
+    "championTitle": "the Arrow of Retribution",
+    "abilities": [
+      { "spellID": "VarusQ", "spellName": "Piercing Arrow", "spellKey": "Q" },
+      { "spellID": "VarusW", "spellName": "Blighted Quiver", "spellKey": "W" },
+      { "spellID": "VarusE", "spellName": "Hail of Arrows", "spellKey": "E" }
+    ],
+    "championID": "Varus",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Vayne",
+    "championTitle": "the Night Hunter",
+    "abilities": [
+      { "spellID": "VayneTumble", "spellName": "Tumble", "spellKey": "Q" },
+      {
+        "spellID": "VayneSilveredBolts",
+        "spellName": "Silver Bolts",
+        "spellKey": "W"
+      },
+      { "spellID": "VayneCondemn", "spellName": "Condemn", "spellKey": "E" }
+    ],
+    "championID": "Vayne",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Veigar",
+    "championTitle": "the Tiny Master of Evil",
+    "abilities": [
+      {
+        "spellID": "VeigarBalefulStrike",
+        "spellName": "Baleful Strike",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "VeigarDarkMatter",
+        "spellName": "Dark Matter",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "VeigarEventHorizon",
+        "spellName": "Event Horizon",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Veigar",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Vel'Koz",
+    "championTitle": "the Eye of the Void",
+    "abilities": [
+      { "spellID": "VelkozQ", "spellName": "Plasma Fission", "spellKey": "Q" },
+      { "spellID": "VelkozW", "spellName": "Void Rift", "spellKey": "W" },
+      {
+        "spellID": "VelkozE",
+        "spellName": "Tectonic Disruption",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Velkoz",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Vex",
+    "championTitle": "the Gloomist",
+    "abilities": [
+      { "spellID": "VexQ", "spellName": "Mistral Bolt", "spellKey": "Q" },
+      { "spellID": "VexW", "spellName": "Personal Space", "spellKey": "W" },
+      { "spellID": "VexE", "spellName": "Looming Darkness", "spellKey": "E" }
+    ],
+    "championID": "Vex",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Vi",
+    "championTitle": "the Piltover Enforcer",
+    "abilities": [
+      { "spellID": "ViQ", "spellName": "Vault Breaker", "spellKey": "Q" },
+      { "spellID": "ViW", "spellName": "Denting Blows", "spellKey": "W" },
+      { "spellID": "ViE", "spellName": "Relentless Force", "spellKey": "E" }
+    ],
+    "championID": "Vi",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Viego",
+    "championTitle": "the Ruined King",
+    "abilities": [
+      {
+        "spellID": "ViegoQ",
+        "spellName": "Blade of the Ruined King",
+        "spellKey": "Q"
+      },
+      { "spellID": "ViegoW", "spellName": "Spectral Maw", "spellKey": "W" },
+      { "spellID": "ViegoE", "spellName": "Harrowed Path", "spellKey": "E" }
+    ],
+    "championID": "Viego",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Viktor",
+    "championTitle": "the Machine Herald",
+    "abilities": [
+      {
+        "spellID": "ViktorPowerTransfer",
+        "spellName": "Siphon Power",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "ViktorGravitonField",
+        "spellName": "Gravity Field",
+        "spellKey": "W"
+      },
+      { "spellID": "ViktorDeathRay", "spellName": "Death Ray", "spellKey": "E" }
+    ],
+    "championID": "Viktor",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "nothing",
+    "championName": "Vladimir",
+    "championTitle": "the Crimson Reaper",
+    "abilities": [
+      { "spellID": "VladimirQ", "spellName": "Transfusion", "spellKey": "Q" },
+      {
+        "spellID": "VladimirSanguinePool",
+        "spellName": "Sanguine Pool",
+        "spellKey": "W"
+      },
+      { "spellID": "VladimirE", "spellName": "Tides of Blood", "spellKey": "E" }
+    ],
+    "championID": "Vladimir",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Volibear",
+    "championTitle": "the Relentless Storm",
+    "abilities": [
+      {
+        "spellID": "VolibearQ",
+        "spellName": "Thundering Smash",
+        "spellKey": "Q"
+      },
+      { "spellID": "VolibearW", "spellName": "Frenzied Maul", "spellKey": "W" },
+      { "spellID": "VolibearE", "spellName": "Sky Splitter", "spellKey": "E" }
+    ],
+    "championID": "Volibear",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Warwick",
+    "championTitle": "the Uncaged Wrath of Zaun",
+    "abilities": [
+      {
+        "spellID": "WarwickQ",
+        "spellName": "Jaws of the Beast",
+        "spellKey": "Q"
+      },
+      { "spellID": "WarwickW", "spellName": "Blood Hunt", "spellKey": "W" },
+      { "spellID": "WarwickE", "spellName": "Primal Howl", "spellKey": "E" }
+    ],
+    "championID": "Warwick",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Xayah",
+    "championTitle": "the Rebel",
+    "abilities": [
+      { "spellID": "XayahQ", "spellName": "Double Daggers", "spellKey": "Q" },
+      { "spellID": "XayahW", "spellName": "Deadly Plumage", "spellKey": "W" },
+      { "spellID": "XayahE", "spellName": "Bladecaller", "spellKey": "E" }
+    ],
+    "championID": "Xayah",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Xerath",
+    "championTitle": "the Magus Ascendant",
+    "abilities": [
+      {
+        "spellID": "XerathArcanopulseChargeUp",
+        "spellName": "Arcanopulse",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "XerathArcaneBarrage2",
+        "spellName": "Eye of Destruction",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "XerathMageSpear",
+        "spellName": "Shocking Orb",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Xerath",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Xin Zhao",
+    "championTitle": "the Seneschal of Demacia",
+    "abilities": [
+      {
+        "spellID": "XinZhaoQ",
+        "spellName": "Three Talon Strike",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "XinZhaoW",
+        "spellName": "Wind Becomes Lightning",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "XinZhaoE",
+        "spellName": "Audacious Charge",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "XinZhao",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Yasuo",
+    "championTitle": "the Unforgiven",
+    "abilities": [
+      {
+        "spellID": "YasuoQ1Wrapper",
+        "spellName": "Steel Tempest",
+        "spellKey": "Q"
+      },
+      { "spellID": "YasuoW", "spellName": "Wind Wall", "spellKey": "W" },
+      { "spellID": "YasuoE", "spellName": "Sweeping Blade", "spellKey": "E" }
+    ],
+    "championID": "Yasuo",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Yone",
+    "championTitle": "the Unforgotten",
+    "abilities": [
+      { "spellID": "YoneQ", "spellName": "Mortal Steel", "spellKey": "Q" },
+      { "spellID": "YoneW", "spellName": "Spirit Cleave", "spellKey": "W" },
+      { "spellID": "YoneE", "spellName": "Soul Unbound", "spellKey": "E" }
+    ],
+    "championID": "Yone",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Yorick",
+    "championTitle": "Shepherd of Souls",
+    "abilities": [
+      { "spellID": "YorickQ", "spellName": "Last Rites", "spellKey": "Q" },
+      { "spellID": "YorickW", "spellName": "Dark Procession", "spellKey": "W" },
+      { "spellID": "YorickE", "spellName": "Mourning Mist", "spellKey": "E" }
+    ],
+    "championID": "Yorick",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Yuumi",
+    "championTitle": "the Magical Cat",
+    "abilities": [
+      {
+        "spellID": "YuumiQ",
+        "spellName": "Prowling Projectile",
+        "spellKey": "Q"
+      },
+      { "spellID": "YuumiW", "spellName": "You and Me!", "spellKey": "W" },
+      { "spellID": "YuumiE", "spellName": "Zoomies", "spellKey": "E" }
+    ],
+    "championID": "Yuumi",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "nothing",
+    "championName": "Zac",
+    "championTitle": "the Secret Weapon",
+    "abilities": [
+      { "spellID": "ZacQ", "spellName": "Stretching Strikes", "spellKey": "Q" },
+      { "spellID": "ZacW", "spellName": "Unstable Matter", "spellKey": "W" },
+      { "spellID": "ZacE", "spellName": "Elastic Slingshot", "spellKey": "E" }
+    ],
+    "championID": "Zac",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "energy",
+    "championName": "Zed",
+    "championTitle": "the Master of Shadows",
+    "abilities": [
+      { "spellID": "ZedQ", "spellName": "Razor Shuriken", "spellKey": "Q" },
+      { "spellID": "ZedW", "spellName": "Living Shadow", "spellKey": "W" },
+      { "spellID": "ZedE", "spellName": "Shadow Slash", "spellKey": "E" }
+    ],
+    "championID": "Zed",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Zeri",
+    "championTitle": "the Spark of Zaun",
+    "abilities": [
+      { "spellID": "ZeriQ", "spellName": "Burst Fire", "spellKey": "Q" },
+      { "spellID": "ZeriW", "spellName": "Ultrashock Laser", "spellKey": "W" },
+      { "spellID": "ZeriE", "spellName": "Spark Surge", "spellKey": "E" }
+    ],
+    "championID": "Zeri",
+    "hasImmobilizingEffects": false,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Ziggs",
+    "championTitle": "the Hexplosives Expert",
+    "abilities": [
+      { "spellID": "ZiggsQ", "spellName": "Bouncing Bomb", "spellKey": "Q" },
+      { "spellID": "ZiggsW", "spellName": "Satchel Charge", "spellKey": "W" },
+      {
+        "spellID": "ZiggsE",
+        "spellName": "Hexplosive Minefield",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Ziggs",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Zilean",
+    "championTitle": "the Chronokeeper",
+    "abilities": [
+      { "spellID": "ZileanQ", "spellName": "Time Bomb", "spellKey": "Q" },
+      { "spellID": "ZileanW", "spellName": "Rewind", "spellKey": "W" },
+      { "spellID": "TimeWarp", "spellName": "Time Warp", "spellKey": "E" }
+    ],
+    "championID": "Zilean",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Zoe",
+    "championTitle": "the Aspect of Twilight",
+    "abilities": [
+      { "spellID": "ZoeQ", "spellName": "Paddle Star!", "spellKey": "Q" },
+      { "spellID": "ZoeW", "spellName": "Spell Thief", "spellKey": "W" },
+      {
+        "spellID": "ZoeE",
+        "spellName": "Sleepy Trouble Bubble",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Zoe",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Zyra",
+    "championTitle": "Rise of the Thorns",
+    "abilities": [
+      { "spellID": "ZyraQ", "spellName": "Deadly Spines", "spellKey": "Q" },
+      { "spellID": "ZyraW", "spellName": "Rampant Growth", "spellKey": "W" },
+      { "spellID": "ZyraE", "spellName": "Grasping Roots", "spellKey": "E" }
+    ],
+    "championID": "Zyra",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  }
+]
