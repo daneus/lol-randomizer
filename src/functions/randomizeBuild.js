@@ -232,27 +232,6 @@ const drawRandomBuild = (championObject) => {
 const drawRandomRunes = (championObject, summoners) => {
   const copiedRunesArray = runes.slice(0);
 
-  if (championObject.championID === 'Cassiopeia') {
-    copiedRunesArray[2]['Domination'][0]['keystones'].splice(1, 1);
-    copiedRunesArray[4]['Inspiration'][1]['firstRow'].splice(1, 1);
-  }
-  if (!summoners.includes('Flash')) {
-    copiedRunesArray[4]['Inspiration'][1]['firstRow'].splice(0, 1);
-  }
-  if (championObject.resourceType !== 'mana') {
-    copiedRunesArray[1]['Sorcery'][1]['firstRow'].splice(1, 1);
-  }
-  if (championObject.resourceType === 'nothing') {
-    copiedRunesArray[0]['Precision'][1]['firstRow'].splice(2, 1);
-  }
-  if (!championObject.hasImmobilizingEffects) {
-    copiedRunesArray[3]['Resolve'][0]['keystones'].splice(1, 1);
-    copiedRunesArray[4]['Inspiration'][0]['keystones'].splice(0, 1);
-  }
-  if (!championObject.canRunUltimateHunter) {
-    copiedRunesArray[2]['Domination'][3]['thirdRow'].splice(3, 1);
-  }
-
   const runePaths = [
     'Precision',
     'Sorcery',
@@ -264,37 +243,102 @@ const drawRandomRunes = (championObject, summoners) => {
 
   const mainTrees = [];
 
-  const randomPrimaryTreeIndex = Math.floor(Math.random() * runePaths.length);
-  const drewPrimaryTree = runePaths[randomPrimaryTreeIndex];
+  const randomPrimaryTreeIndex = Math.floor(
+    Math.random() * copiedRunePaths.length
+  );
+  const drewPrimaryTree = copiedRunePaths[randomPrimaryTreeIndex];
   mainTrees.push(drewPrimaryTree);
-  runePaths.splice(randomPrimaryTreeIndex, 1);
-  const randomSecondaryTreeIndex = Math.floor(Math.random() * runePaths.length);
-  const drewSecondaryTree = runePaths[randomSecondaryTreeIndex];
+  copiedRunePaths.splice(randomPrimaryTreeIndex, 1);
+
+  const randomSecondaryTreeIndex = Math.floor(
+    Math.random() * copiedRunePaths.length
+  );
+  const drewSecondaryTree = copiedRunePaths[randomSecondaryTreeIndex];
   mainTrees.push(drewSecondaryTree);
 
-  const randomAAIndex = Math.floor(
-    Math.random() *
+  //Getting random AA
+  const possibleAAIndexes = [
+    ...Array(
       copiedRunesArray[randomPrimaryTreeIndex][mainTrees[0]][0]['keystones']
         .length
-  );
+    ).keys(),
+  ];
+  if (championObject.championID === 'Cassiopeia') {
+    if (mainTrees[0] === 'Domination') {
+      possibleAAIndexes.splice(1, 1);
+    }
+  }
+  if (!championObject.hasImmobilizingEffects) {
+    if (mainTrees[0] === 'Resolve') {
+      possibleAAIndexes.splice(1, 1);
+    } else if (mainTrees[0] === 'Inspiration') {
+      possibleAAIndexes.splice(0, 1);
+    }
+  }
+  const randomAAIndex =
+    possibleAAIndexes[Math.floor(Math.random() * possibleAAIndexes.length)];
 
-  const randomABIndex = Math.floor(
-    Math.random() *
+  //Getting random AB
+  const possibleABIndexes = [
+    ...Array(
       copiedRunesArray[randomPrimaryTreeIndex][mainTrees[0]][1]['firstRow']
         .length
-  );
+    ).keys(),
+  ];
+  if (championObject.championID === 'Cassiopeia') {
+    if (mainTrees[0] === 'Inspiration') {
+      const magFootIndex = copiedRunesArray[randomPrimaryTreeIndex][
+        mainTrees[0]
+      ][1]['firstRow'].findIndex(
+        (item) => Object.keys(item)[0] == 'MagicalFootwear'
+      );
+      possibleABIndexes.splice(magFootIndex, 1);
+    }
+  }
+  if (!summoners.includes('Flash')) {
+    if (mainTrees[0] === 'Inspiration') {
+      const hexFlashIndex = copiedRunesArray[randomPrimaryTreeIndex][
+        mainTrees[0]
+      ][1]['firstRow'].findIndex(
+        (item) => Object.keys(item)[0] == 'HextechFlashtraption'
+      );
+      possibleABIndexes.splice(hexFlashIndex, 1);
+    }
+  }
+  if (championObject.resourceType !== 'mana') {
+    if (mainTrees[0] === 'Sorcery') {
+      possibleABIndexes.splice(1, 1);
+    }
+  }
+  if (championObject.resourceType === 'nothing') {
+    if (mainTrees[0] === 'Precision') {
+      possibleABIndexes.splice(2, 1);
+    }
+  }
+  const randomABIndex =
+    possibleABIndexes[Math.floor(Math.random() * possibleABIndexes.length)];
 
+  //Getting random AC
   const randomACIndex = Math.floor(
     Math.random() *
       copiedRunesArray[randomPrimaryTreeIndex][mainTrees[0]][2]['secondRow']
         .length
   );
 
-  const randomADIndex = Math.floor(
-    Math.random() *
+  //Getting random AD
+  const possibleADIndexes = [
+    ...Array(
       copiedRunesArray[randomPrimaryTreeIndex][mainTrees[0]][3]['thirdRow']
         .length
-  );
+    ).keys(),
+  ];
+  if (!championObject.canRunUltimateHunter) {
+    if (mainTrees[0] === 'Domination') {
+      possibleADIndexes.splice(3, 1);
+    }
+  }
+  const randomADIndex =
+    possibleADIndexes[Math.floor(Math.random() * possibleADIndexes.length)];
 
   const secondaryRunePathOptions = [
     { firstRow: 'firstRow', index: 1 },
@@ -312,23 +356,167 @@ const drawRandomRunes = (championObject, summoners) => {
   const drewBB = secondaryRunePathOptions[randomBB];
   secondaryPaths.push(drewBB);
 
-  const randomBAIndex = Math.floor(
-    Math.random() *
-      Object.values(
-        copiedRunesArray[copiedRunePaths.indexOf(mainTrees[1])][mainTrees[1]][
-          secondaryPaths[0].index
-        ]
-      )[0].length
-  );
+  //Getting random BA
+  switch (Object.keys(secondaryPaths[0])[0]) {
+    case 'firstRow':
+      const possibleBA1Indexes = [
+        ...Array(
+          Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[0].index
+            ]
+          )[0].length
+        ).keys(),
+      ];
+      if (championObject.championID === 'Cassiopeia') {
+        if (mainTrees[1] === 'Inspiration') {
+          const magFootIndex = Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[0].index
+            ]
+          )[0].findIndex((item) => Object.keys(item)[0] == 'MagicalFootwear');
+          possibleBA1Indexes.splice(magFootIndex, 1);
+        }
+      }
+      if (!summoners.includes('Flash')) {
+        if (mainTrees[1] === 'Inspiration') {
+          const hexFlashIndex = Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[0].index
+            ]
+          )[0].findIndex(
+            (item) => Object.keys(item)[0] == 'HextechFlashtraption'
+          );
+          possibleBA1Indexes.splice(hexFlashIndex, 1);
+        }
+      }
+      if (championObject.resourceType !== 'mana') {
+        if (mainTrees[1] === 'Sorcery') {
+          possibleBA1Indexes.splice(1, 1);
+        }
+      }
+      if (championObject.resourceType === 'nothing') {
+        if (mainTrees[1] === 'Precision') {
+          possibleBA1Indexes.splice(2, 1);
+        }
+      }
+      var randomBAIndex =
+        possibleBA1Indexes[
+          Math.floor(Math.random() * possibleBA1Indexes.length)
+        ];
+      break;
 
-  const randomBBIndex = Math.floor(
-    Math.random() *
-      Object.values(
-        copiedRunesArray[copiedRunePaths.indexOf(mainTrees[1])][mainTrees[1]][
-          secondaryPaths[1].index
-        ]
-      )[0].length
-  );
+    case 'secondRow':
+      var randomBAIndex = Math.floor(
+        Math.random() *
+          Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][2]
+          )[0].length
+      );
+      break;
+
+    case 'thirdRow':
+      const possibleBA2Indexes = [
+        ...Array(
+          Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[0].index
+            ]
+          )[0].length
+        ).keys(),
+      ];
+      if (!championObject.canRunUltimateHunter) {
+        if (mainTrees[1] === 'Domination') {
+          possibleBA2Indexes.splice(3, 1);
+        }
+      }
+      var randomBAIndex =
+        possibleBA2Indexes[
+          Math.floor(Math.random() * possibleBA2Indexes.length)
+        ];
+      break;
+  }
+
+  //Getting random BB
+  switch (Object.keys(secondaryPaths[1])[0]) {
+    case 'firstRow':
+      const possibleBB1Indexes = [
+        ...Array(
+          Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[1].index
+            ]
+          )[0].length
+        ).keys(),
+      ];
+      if (championObject.championID === 'Cassiopeia') {
+        if (mainTrees[1] === 'Inspiration') {
+          const magFootIndex = Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[1].index
+            ]
+          )[0].findIndex((item) => Object.keys(item)[0] == 'MagicalFootwear');
+          possibleBB1Indexes.splice(magFootIndex, 1);
+        }
+      }
+      if (!summoners.includes('Flash')) {
+        if (mainTrees[1] === 'Inspiration') {
+          const hexFlashIndex = Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[1].index
+            ]
+          )[0].findIndex(
+            (item) => Object.keys(item)[0] == 'HextechFlashtraption'
+          );
+          possibleBB1Indexes.splice(hexFlashIndex, 1);
+        }
+      }
+      if (championObject.resourceType !== 'mana') {
+        if (mainTrees[1] === 'Sorcery') {
+          possibleBB1Indexes.splice(1, 1);
+        }
+      }
+      if (championObject.resourceType === 'nothing') {
+        if (mainTrees[1] === 'Precision') {
+          possibleBB1Indexes.splice(2, 1);
+        }
+      }
+      var randomBBIndex =
+        possibleBB1Indexes[
+          Math.floor(Math.random() * possibleBB1Indexes.length)
+        ];
+      break;
+
+    case 'secondRow':
+      var randomBBIndex = Math.floor(
+        Math.random() *
+          Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][2]
+          )[0].length
+      );
+      break;
+
+    case 'thirdRow':
+      const possibleBB2Indexes = [
+        ...Array(
+          Object.values(
+            copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
+              secondaryPaths[1].index
+            ]
+          )[0].length
+        ).keys(),
+      ];
+      if (!championObject.canRunUltimateHunter) {
+        if (mainTrees[1] === 'Domination') {
+          possibleBB2Indexes.splice(3, 1);
+        }
+      }
+      var randomBBIndex =
+        possibleBB2Indexes[
+          Math.floor(Math.random() * possibleBB2Indexes.length)
+        ];
+      break;
+  }
 
   const randomCAIndex = Math.floor(
     Math.random() * copiedRunesArray[5]['Stats'][0]['firstRow'].length
@@ -356,12 +544,12 @@ const drawRandomRunes = (championObject, summoners) => {
       randomADIndex
     ],
     BA: Object.values(
-      copiedRunesArray[copiedRunePaths.indexOf(mainTrees[1])][mainTrees[1]][
+      copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
         secondaryPaths[0].index
       ]
     )[0][randomBAIndex],
     BB: Object.values(
-      copiedRunesArray[copiedRunePaths.indexOf(mainTrees[1])][mainTrees[1]][
+      copiedRunesArray[runePaths.indexOf(mainTrees[1])][mainTrees[1]][
         secondaryPaths[1].index
       ]
     )[0][randomBBIndex],
