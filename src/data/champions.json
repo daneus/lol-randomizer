@@ -584,7 +584,7 @@
   },
   {
     "canBuyBoots": true,
-    "rangeType": "ranged",
+    "rangeType": "melee",
     "resourceType": "mana",
     "championName": "Fiora",
     "championTitle": "the Grand Duelist",
@@ -599,7 +599,7 @@
   },
   {
     "canBuyBoots": true,
-    "rangeType": "ranged",
+    "rangeType": "melee",
     "resourceType": "mana",
     "championName": "Fizz",
     "championTitle": "the Tidal Trickster",
