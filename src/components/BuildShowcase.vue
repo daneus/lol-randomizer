@@ -55,7 +55,10 @@
         <div class="section-title">Build</div>
         <div class="build-wrapper">
           <template v-for="item in dataPassed?.build" v-bind:key="item.icon">
-            <img :src="getItemIcon(item.icon)" />
+            <div class="item-box">
+              <span class="tooltip">{{ item.itemName }}</span>
+              <img :src="getItemIcon(item.icon)" />
+            </div>
           </template>
         </div>
       </div>
@@ -216,9 +219,9 @@ export default {
 }
 .champion-image {
   padding-top: 25px;
-}
-.champion-image > img {
-  border-radius: 20px;
+  & > img {
+    border-radius: 20px;
+  }
 }
 .champion-build {
   padding: 0 60px;
@@ -240,8 +243,10 @@ export default {
   padding: 10px 12px;
   border-radius: 12px;
 }
-.role-image > img {
-  margin: auto;
+.role-image {
+  & > img {
+    margin: auto;
+  }
 }
 .tooltip-name {
   font-size: 18px;
@@ -328,8 +333,45 @@ export default {
   border-radius: 10px;
   max-width: max-content;
 }
-.build-wrapper > img {
+.item-box > img {
   border-radius: 10px;
+}
+.item-box {
+  position: relative;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  .item-box:hover {
+    & .tooltip {
+      top: -90%;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+.tooltip {
+  pointer-events: none;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background-color: #555;
+  padding: 0.7rem;
+  border-radius: 10px;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #555 #0000 #0000 #0000;
+  }
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease;
 }
 .runes > .section-title {
   text-align: center;
@@ -459,4 +501,7 @@ export default {
     gap: 30px;
   }
 }
+// @media (hover: hover) {
+//   dwd
+// }
 </style>
