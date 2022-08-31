@@ -17,8 +17,4 @@ export default createStore({
       state.isAbilityImgLoaded = param;
     },
   },
-  getters: {
-    getFirstAtt: (state) => state.isChampImgLoaded,
-    getSecAtt: (state) => state.isAbilityImgLoaded,
-  },
 });

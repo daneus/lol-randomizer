@@ -303,6 +303,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 .role {
   text-align: center;
@@ -357,16 +358,16 @@ export default {
   background-color: $light-background-color;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  padding: 15px 10px;
+  padding: 15px 20px;
   border-radius: 10px;
+  gap: 15px;
 }
 .max-ability-image {
   border-radius: 10px;
   width: max-content;
   position: relative;
-  padding: 0 15px;
 }
 .max-ability-image > img {
   border-radius: 10px;
@@ -381,7 +382,6 @@ export default {
   font-weight: 700;
 }
 .max-ability-name {
-  padding-right: 15px;
   max-width: 200px;
 }
 .build {
