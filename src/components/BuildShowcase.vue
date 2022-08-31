@@ -1,10 +1,23 @@
 <template>
-  <div class="content-wrapper">
+  <div
+    :style="{
+      visibility: splashLoaded && abilityLoaded ? 'hidden' : 'visible',
+    }"
+    class="fallback"
+  >
+    <div class="spinner"></div>
+  </div>
+  <div
+    :style="{
+      visibility: splashLoaded && abilityLoaded ? 'visible' : 'hidden',
+    }"
+    class="content-wrapper"
+  >
     <div class="champion-spotlight">
       <div class="champion-name">{{ dataPassed?.championName }}</div>
       <div class="champion-title">{{ dataPassed?.championTitle }}</div>
       <div class="champion-image">
-        <img :src="getLoadingScreenImage()" />
+        <img @load="handleLoad1" :src="getLoadingScreenImage()" />
       </div>
     </div>
     <div class="champion-build">
@@ -40,7 +53,7 @@
           <div class="section-title">Ability to Max</div>
           <div class="max-ability-wrapper">
             <div class="max-ability-image">
-              <img :src="getMaxAbilityIcon()" />
+              <img @load="handleLoad2" :src="getMaxAbilityIcon()" />
               <div class="max-ability-key">
                 {{ dataPassed?.toMax.spellKey }}
               </div>
@@ -57,7 +70,7 @@
           <template v-for="item in dataPassed?.build" v-bind:key="item.icon">
             <div class="item-box">
               <span class="tooltip">{{ item.itemName }}</span>
-              <img :src="getItemIcon(item.icon)" />
+              <img @load="pinga" :src="getItemIcon(item.icon)" />
             </div>
           </template>
         </div>
@@ -156,6 +169,14 @@ export default {
       version: '12.16.1',
     };
   },
+  computed: {
+    splashLoaded() {
+      return this.$store.state.isChampImgLoaded;
+    },
+    abilityLoaded() {
+      return this.$store.state.isAbilityImgLoaded;
+    },
+  },
   props: {
     dataPassed: Object,
   },
@@ -178,6 +199,15 @@ export default {
     getRuneIcon(runeID) {
       return `../assets/runes/${runeID}.png`;
     },
+    handleLoad1() {
+      this.$store.commit('updateFirst', true);
+    },
+    handleLoad2() {
+      this.$store.commit('updateSecond', true);
+    },
+    pinga() {
+      console.log('Element loaded!');
+    },
   },
 };
 </script>
@@ -188,6 +218,34 @@ export default {
 * {
   color: white;
 }
+.fallback {
+  position: absolute;
+  margin-top: 70px;
+  width: 100%;
+  height: inherit;
+  background-color: transparent;
+  height: 90%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 20vh;
+}
+.spinner {
+  background-color: transparent;
+  width: 10rem;
+  height: 10rem;
+  border: 20px solid #ddd;
+  border-top-color: $light-blue;
+  border-radius: 50%;
+  animation: spinner 0.6s cubic-bezier(0.13, 0.57, 0.84, 0.43) infinite;
+}
+@keyframes spinner {
+  to {
+    transform: rotate(1turn);
+  }
+}
 .section-title {
   font-size: 30px;
   font-weight: 600;
@@ -195,13 +253,17 @@ export default {
   padding: 5px;
 }
 .content-wrapper {
+  position: relative;
   display: flex;
   flex-direction: row;
-  padding: 20px 0;
+  padding: 25px 0;
+  margin: auto;
   justify-content: center;
+  max-width: max-content;
   gap: 30px;
 }
 .champion-spotlight {
+  padding: 0 4rem;
   text-align: center;
   display: flex;
   flex-direction: column;

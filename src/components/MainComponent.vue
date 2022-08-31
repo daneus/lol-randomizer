@@ -4,7 +4,10 @@
       <button
         class="randomize-button"
         @click.once="handleButtonClick()"
-        @click="randomize()"
+        @click="
+          randomize();
+          handleReset();
+        "
       >
         {{ message }}
       </button>
@@ -16,6 +19,7 @@
 <script>
 import BuildShowcase from './BuildShowcase.vue';
 import randomizeBuild from '../functions/randomizeBuild.js';
+import store from '@/store';
 
 export default {
   data() {
@@ -37,12 +41,18 @@ export default {
     randomize() {
       this.randomizedBuild = randomizeBuild();
     },
+    handleReset() {
+      store.commit('reset');
+    },
   },
 };
 </script>
 
 <style lang="scss">
 @use '../sass/abstracts/colors' as *;
+main {
+  position: relative;
+}
 .randomize-button {
   width: 130px;
   height: 42px;
