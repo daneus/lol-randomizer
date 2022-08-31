@@ -17,7 +17,11 @@
       <div class="champion-name">{{ dataPassed?.championName }}</div>
       <div class="champion-title">{{ dataPassed?.championTitle }}</div>
       <div class="champion-image">
-        <img @load="handleLoad1" :src="getLoadingScreenImage()" />
+        <img
+          @load="handleLoad1"
+          :src="getLoadingScreenImage()"
+          :alt="dataPassed?.championName"
+        />
       </div>
     </div>
     <div class="champion-build">
@@ -26,7 +30,12 @@
           <div class="section-title">Role</div>
           <div class="role-wrapper">
             <div class="role-image">
-              <img width="75" height="75" :src="getRoleIcon()" />
+              <img
+                width="75"
+                height="75"
+                :src="getRoleIcon()"
+                :alt="dataPassed?.role"
+              />
             </div>
             <div class="tooltip-name">{{ dataPassed?.role }}</div>
           </div>
@@ -38,6 +47,7 @@
               <img
                 class="summ-img"
                 :src="getSummIcon(dataPassed?.summoners[0])"
+                :alt="dataPassed?.summoners[0]"
               />
               <div class="tooltip-name">
                 {{ dataPassed?.summoners[0] }}
@@ -47,6 +57,7 @@
               <img
                 class="summ-img"
                 :src="getSummIcon(dataPassed?.summoners[1])"
+                :alt="dataPassed?.summoners[1]"
               />
               <div class="tooltip-name">
                 {{ dataPassed?.summoners[1] }}
@@ -63,6 +74,7 @@
                 class="max-img"
                 @load="handleLoad2"
                 :src="getMaxAbilityIcon()"
+                :alt="dataPassed?.toMax.spellName"
               />
               <div class="max-ability-key">
                 {{ dataPassed?.toMax.spellKey }}
@@ -80,7 +92,7 @@
           <template v-for="item in dataPassed?.build" v-bind:key="item.icon">
             <div class="item-box">
               <span class="tooltip">{{ item.itemName }}</span>
-              <img :src="getItemIcon(item.icon)" />
+              <img :src="getItemIcon(item.icon)" :alt="item.itemName" />
             </div>
           </template>
         </div>
@@ -89,7 +101,10 @@
         <div class="section-title">Runes</div>
         <div class="runes-wrapper">
           <div class="keystone">
-            <img :src="getRuneIcon(Object.keys(dataPassed?.runes.AA)[0])" />
+            <img
+              :alt="Object.values(dataPassed?.runes.AA)[0]"
+              :src="getRuneIcon(Object.keys(dataPassed?.runes.AA)[0])"
+            />
             <div class="keystone-name">
               {{ Object.values(dataPassed?.runes.AA)[0] }}
             </div>
@@ -97,19 +112,28 @@
           <div class="rest-runes">
             <div class="first-tree-runes">
               <div class="rune-container">
-                <img :src="getRuneIcon(Object.keys(dataPassed?.runes.AB)[0])" />
+                <img
+                  :alt="Object.values(dataPassed?.runes.AB)[0]"
+                  :src="getRuneIcon(Object.keys(dataPassed?.runes.AB)[0])"
+                />
                 <div class="rune-name">
                   {{ Object.values(dataPassed?.runes.AB)[0] }}
                 </div>
               </div>
               <div class="rune-container">
-                <img :src="getRuneIcon(Object.keys(dataPassed?.runes.AC)[0])" />
+                <img
+                  :alt="Object.values(dataPassed?.runes.AC)[0]"
+                  :src="getRuneIcon(Object.keys(dataPassed?.runes.AC)[0])"
+                />
                 <div class="rune-name">
                   {{ Object.values(dataPassed?.runes.AC)[0] }}
                 </div>
               </div>
               <div class="rune-container">
-                <img :src="getRuneIcon(Object.keys(dataPassed?.runes.AD)[0])" />
+                <img
+                  :alt="Object.values(dataPassed?.runes.AD)[0]"
+                  :src="getRuneIcon(Object.keys(dataPassed?.runes.AD)[0])"
+                />
                 <div class="rune-name">
                   {{ Object.values(dataPassed?.runes.AD)[0] }}
                 </div>
@@ -117,13 +141,19 @@
             </div>
             <div class="second-tree-runes">
               <div class="rune-container">
-                <img :src="getRuneIcon(Object.keys(dataPassed?.runes.BA)[0])" />
+                <img
+                  :alt="Object.values(dataPassed?.runes.BA)[0]"
+                  :src="getRuneIcon(Object.keys(dataPassed?.runes.BA)[0])"
+                />
                 <div class="rune-name">
                   {{ Object.values(dataPassed?.runes.BA)[0] }}
                 </div>
               </div>
               <div class="rune-container">
-                <img :src="getRuneIcon(Object.keys(dataPassed?.runes.BB)[0])" />
+                <img
+                  :alt="Object.values(dataPassed?.runes.BB)[0]"
+                  :src="getRuneIcon(Object.keys(dataPassed?.runes.BB)[0])"
+                />
                 <div class="rune-name">
                   {{ Object.values(dataPassed?.runes.BB)[0] }}
                 </div>
@@ -134,6 +164,7 @@
                 <div class="circle">
                   <img
                     class="sec-rune"
+                    :alt="Object.values(dataPassed?.runes.CA)[0]"
                     :src="getRuneIcon(Object.keys(dataPassed?.runes.CA)[0])"
                   />
                 </div>
@@ -145,6 +176,7 @@
                 <div class="circle">
                   <img
                     class="sec-rune"
+                    :alt="Object.values(dataPassed?.runes.CB)[0]"
                     :src="getRuneIcon(Object.keys(dataPassed?.runes.CB)[0])"
                   />
                 </div>
@@ -156,6 +188,7 @@
                 <div class="circle">
                   <img
                     class="sec-rune"
+                    :alt="Object.values(dataPassed?.runes.CC)[0]"
                     :src="getRuneIcon(Object.keys(dataPassed?.runes.CC)[0])"
                   />
                 </div>
@@ -246,7 +279,7 @@ export default {
   border: 20px solid #ddd;
   border-top-color: $light-blue;
   border-radius: 50%;
-  animation: spinner 0.6s cubic-bezier(0.13, 0.57, 0.84, 0.43) infinite;
+  animation: spinner 0.8s cubic-bezier(0.13, 0.57, 0.84, 0.43) infinite;
 }
 @keyframes spinner {
   to {
