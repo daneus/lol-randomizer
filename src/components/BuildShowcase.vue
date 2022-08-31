@@ -35,13 +35,19 @@
           <div class="section-title">Summoners</div>
           <div class="summoners-container">
             <div class="summoner-spell">
-              <img :src="getSummIcon(dataPassed?.summoners[0])" />
+              <img
+                class="summ-img"
+                :src="getSummIcon(dataPassed?.summoners[0])"
+              />
               <div class="tooltip-name">
                 {{ dataPassed?.summoners[0] }}
               </div>
             </div>
             <div class="summoner-spell">
-              <img :src="getSummIcon(dataPassed?.summoners[1])" />
+              <img
+                class="summ-img"
+                :src="getSummIcon(dataPassed?.summoners[1])"
+              />
               <div class="tooltip-name">
                 {{ dataPassed?.summoners[1] }}
               </div>
@@ -53,7 +59,11 @@
           <div class="section-title">Ability to Max</div>
           <div class="max-ability-wrapper">
             <div class="max-ability-image">
-              <img @load="handleLoad2" :src="getMaxAbilityIcon()" />
+              <img
+                class="max-img"
+                @load="handleLoad2"
+                :src="getMaxAbilityIcon()"
+              />
               <div class="max-ability-key">
                 {{ dataPassed?.toMax.spellKey }}
               </div>
@@ -70,7 +80,7 @@
           <template v-for="item in dataPassed?.build" v-bind:key="item.icon">
             <div class="item-box">
               <span class="tooltip">{{ item.itemName }}</span>
-              <img @load="pinga" :src="getItemIcon(item.icon)" />
+              <img :src="getItemIcon(item.icon)" />
             </div>
           </template>
         </div>
@@ -204,9 +214,6 @@ export default {
     },
     handleLoad2() {
       this.$store.commit('updateSecond', true);
-    },
-    pinga() {
-      console.log('Element loaded!');
     },
   },
 };
@@ -401,6 +408,12 @@ export default {
 .item-box {
   position: relative;
   cursor: pointer;
+  border-radius: 10px;
+}
+.item-box,
+.summ-img,
+.max-img {
+  box-shadow: 3px 3px 5px #111;
 }
 @media (hover: hover) {
   .item-box:hover {
