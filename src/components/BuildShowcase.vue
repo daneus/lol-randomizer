@@ -296,7 +296,7 @@ export default {
   position: relative;
   display: flex;
   flex-direction: row;
-  padding: 25px 0;
+  padding: 5px 0 25px;
   margin: auto;
   justify-content: center;
   max-width: max-content;
