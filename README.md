@@ -12,15 +12,17 @@ This application draws a completely random League of Legends build, including:
 - Role
 - Summoner spells
 - Ability to Max
-- Build
+- Item Build
 - Runes
 
 # **No Impossible Builds!**
 
-The randomizing algorithm prevents impossible builds from being drawn. Examples of impossible builds:
+The randomizing algorithm prevents impossible builds from being drawn.
+
+Examples of impossible builds:
 
 - **Jungle** being drawn as the random role without **Smite** on the summoners
-- **Ranged** champions with **Runaan's Hurricane**
+- **Melee** champions with **Runaan's Hurricane**
 - **Cassiopeia** with **boots** or **Magical Footwear**
-- **Energy users** with **Presence of Mind**
-- Double unique items on the same build, like **Infinity Edge** and **Guinsoo's Rageblade**
+- **Energy users** with **Manaflow Band**
+- Multiple unique items on drawn build, like **Infinity Edge** and **Guinsoo's Rageblade**
