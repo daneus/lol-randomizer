@@ -209,7 +209,7 @@ export default {
   name: 'BuildShowcase',
   data() {
     return {
-      version: '12.19.1',
+      version: '12.20.1',
     };
   },
   computed: {
