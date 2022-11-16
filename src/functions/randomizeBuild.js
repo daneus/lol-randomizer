@@ -84,7 +84,7 @@ const drawRandomBuild = (championObject) => {
     drewItems.push(copiedBootsArray[randomBootIndex]);
   }
 
-  const randomMythicIndex = getRandomIndex(25);
+  const randomMythicIndex = getRandomIndex(29);
   const drewMythic = copiedMythicArray[randomMythicIndex];
 
   drewItems.push(drewMythic);

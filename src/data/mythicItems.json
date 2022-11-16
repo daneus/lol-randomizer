@@ -68,7 +68,7 @@
     "icon": "6656.png"
   },
   {
-    "itemName": "Frostfire Gauntlet",
+    "itemName": "Iceborn Gauntlet",
     "icon": "6662.png"
   },
   {
@@ -98,5 +98,9 @@
   {
     "itemName": "Prowler's Claw",
     "icon": "6693.png"
-  }
+  },
+  { "itemName": "Jak'Sho, the Protean", "icon": "6665.png" },
+  { "itemName": "Radiant Virtue", "icon": "6667.png" },
+  { "itemName": "Heartsteel", "icon": "3084.png" },
+  { "itemName": "Rod of Ages", "icon": "6657.png" }
 ]
