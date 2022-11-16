@@ -89,12 +89,48 @@
       <div class="build">
         <div class="section-title">Build</div>
         <div class="build-wrapper">
-          <template v-for="item in dataPassed?.build" v-bind:key="item.icon">
-            <div class="item-box">
-              <span class="tooltip">{{ item.itemName }}</span>
-              <img :src="getItemIcon(item.icon)" :alt="item.itemName" />
-            </div>
-          </template>
+          <div class="item-box">
+            <span class="tooltip">{{ dataPassed?.build[0].itemName }}</span>
+            <img
+              :src="getItemIcon(dataPassed?.build[0].icon)"
+              :alt="dataPassed?.build[0].itemName"
+            />
+          </div>
+          <div class="item-box">
+            <span class="tooltip">{{ dataPassed?.build[1].itemName }}</span>
+            <img
+              :src="getItemIcon(dataPassed?.build[1].icon)"
+              :alt="dataPassed?.build[1].itemName"
+            />
+          </div>
+          <div class="item-box">
+            <span class="tooltip">{{ dataPassed?.build[2].itemName }}</span>
+            <img
+              :src="getItemIcon(dataPassed?.build[2].icon)"
+              :alt="dataPassed?.build[2].itemName"
+            />
+          </div>
+          <div class="item-box">
+            <span class="tooltip">{{ dataPassed?.build[3].itemName }}</span>
+            <img
+              :src="getItemIcon(dataPassed?.build[3].icon)"
+              :alt="dataPassed?.build[3].itemName"
+            />
+          </div>
+          <div class="item-box">
+            <span class="tooltip">{{ dataPassed?.build[4].itemName }}</span>
+            <img
+              :src="getItemIcon(dataPassed?.build[4].icon)"
+              :alt="dataPassed?.build[4].itemName"
+            />
+          </div>
+          <div class="item-box">
+            <span class="tooltip">{{ dataPassed?.build[5].itemName }}</span>
+            <img
+              :src="getItemIcon(dataPassed?.build[5].icon)"
+              :alt="dataPassed?.build[5].itemName"
+            />
+          </div>
         </div>
       </div>
       <div class="runes">
