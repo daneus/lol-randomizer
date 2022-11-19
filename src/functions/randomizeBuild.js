@@ -122,14 +122,33 @@ const drawRandomBuild = (championObject) => {
         const guinsoosIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Guinsoo's Rageblade"
         );
+        const navoriIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Navori Quickblades'
+        );
         copiedLegendaryArray.splice(guinsoosIndex, 1);
+        copiedLegendaryArray.splice(navoriIndex, 1);
         break;
       }
       case '3124.png': {
         const IEIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == 'Infinity Edge'
         );
+        const navoriIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Navori Quickblades'
+        );
         copiedLegendaryArray.splice(IEIndex, 1);
+        copiedLegendaryArray.splice(navoriIndex, 1);
+        break;
+      }
+      case '6675.png': {
+        const IEIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Infinity Edge'
+        );
+        const guinsoosIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Guinsoo's Rageblade"
+        );
+        copiedLegendaryArray.splice(IEIndex, 1);
+        copiedLegendaryArray.splice(guinsoosIndex, 1);
         break;
       }
       case '3040.png': {
