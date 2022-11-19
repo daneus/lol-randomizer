@@ -147,8 +147,19 @@ const drawRandomBuild = (championObject) => {
         const guinsoosIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Guinsoo's Rageblade"
         );
+        const shojinIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Spear of Shojin'
+        );
         copiedLegendaryArray.splice(IEIndex, 1);
         copiedLegendaryArray.splice(guinsoosIndex, 1);
+        copiedLegendaryArray.splice(shojinIndex, 1);
+        break;
+      }
+      case '3161.png': {
+        const navoriIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Navori Quickblades'
+        );
+        copiedLegendaryArray.splice(navoriIndex, 1);
         break;
       }
       case '3040.png': {
