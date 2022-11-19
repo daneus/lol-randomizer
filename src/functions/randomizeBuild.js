@@ -100,6 +100,13 @@ const drawRandomBuild = (championObject) => {
     copiedLegendaryArray.splice(steraksIndex, 1);
   }
 
+  if (drewMythic.itemName === 'Rod of Ages') {
+    const abyssalIndex = copiedLegendaryArray.findIndex(
+      (item) => item.itemName == 'Abyssal Mask'
+    );
+    copiedLegendaryArray.splice(abyssalIndex, 1);
+  }
+
   if (championObject.rangeType !== 'ranged') {
     const runaansIndex = copiedLegendaryArray.findIndex(
       (item) => item.itemName == "Runaan's Hurricane"
