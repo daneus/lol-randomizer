@@ -5,6 +5,8 @@ import legendary from '../data/legendaryItems.json';
 import roles from '../data/roles.json';
 import runes from '../data/runes.json';
 import summoners from '../data/summoners.json';
+import smites from '../data/smites.json';
+import support from '../data/supportItems.json';
 
 const getRandomIndex = (amount) => {
   return Math.floor(Math.random() * amount);
@@ -22,7 +24,7 @@ const drawRandomChampion = () => {
 
   const { role, summoners } = drawRandomRole();
 
-  const drewBuild = drawRandomBuild(drewChampionObject);
+  const drewBuild = drawRandomBuild(drewChampionObject, role);
 
   const drewRunes = drawRandomRunes(drewChampionObject, summoners);
 
@@ -55,12 +57,14 @@ const drawRandomRole = () => {
 
 const drawRandomSummoners = (role) => {
   const copiedSummsArray = summoners.slice(0);
+  const copiedSmitesArray = smites.slice(0);
   const drewSummoners = [];
   if (role === 'Jungle') {
     copiedSummsArray.splice(7, 1);
     const randomSummIndex = getRandomIndex(copiedSummsArray.length);
     drewSummoners.push(copiedSummsArray[randomSummIndex]);
-    drewSummoners.push('Smite');
+    const randomSmiteIndex = getRandomIndex(copiedSmitesArray.length);
+    drewSummoners.push(copiedSmitesArray[randomSmiteIndex]);
   } else {
     for (let i = 0; i < 2; i++) {
       const randomSummIndex = getRandomIndex(copiedSummsArray.length);
@@ -72,10 +76,11 @@ const drawRandomSummoners = (role) => {
   return drewSummoners;
 };
 
-const drawRandomBuild = (championObject) => {
+const drawRandomBuild = (championObject, role) => {
   const copiedBootsArray = boots.slice(0);
   const copiedMythicArray = mythic.slice(0);
   const copiedLegendaryArray = legendary.slice(0);
+  const copiedSupportArray = support.slice(0);
 
   const drewItems = [];
 
@@ -112,6 +117,11 @@ const drawRandomBuild = (championObject) => {
       (item) => item.itemName == "Runaan's Hurricane"
     );
     copiedLegendaryArray.splice(runaansIndex, 1);
+  }
+
+  if (role === 'Support') {
+    const randomSupportIndex = getRandomIndex(4);
+    drewItems.push(copiedSupportArray[randomSupportIndex]);
   }
 
   while (drewItems.length <= 5) {
