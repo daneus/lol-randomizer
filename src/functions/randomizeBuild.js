@@ -101,8 +101,12 @@ const drawRandomBuild = (championObject, role) => {
     const steraksIndex = copiedLegendaryArray.findIndex(
       (item) => item.itemName == "Sterak's Gage"
     );
+    const seraphsIndex = copiedLegendaryArray.findIndex(
+      (item) => item.itemName == "Seraph's Embrace"
+    );
     copiedLegendaryArray.splice(mawIndex, 1);
     copiedLegendaryArray.splice(steraksIndex, 1);
+    copiedLegendaryArray.splice(seraphsIndex, 1);
   }
 
   if (drewMythic.itemName === 'Rod of Ages') {
@@ -186,8 +190,16 @@ const drawRandomBuild = (championObject, role) => {
         const fimbulwinter1Index = copiedLegendaryArray.findIndex(
           (item) => item.itemName == 'Fimbulwinter'
         );
+        const mawIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Maw of Malmortius'
+        );
+        const steraksIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Sterak's Gage"
+        );
         copiedLegendaryArray.splice(muramanaIndex, 1);
         copiedLegendaryArray.splice(fimbulwinter1Index, 1);
+        copiedLegendaryArray.splice(mawIndex, 1);
+        copiedLegendaryArray.splice(steraksIndex, 1);
         break;
       }
       case '3042.png': {
@@ -230,14 +242,22 @@ const drawRandomBuild = (championObject, role) => {
         const steraksIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Sterak's Gage"
         );
+        const seraphsIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Seraph's Embrace"
+        );
         copiedLegendaryArray.splice(steraksIndex, 1);
+        copiedLegendaryArray.splice(seraphsIndex, 1);
         break;
       }
       case '3053.png': {
         const mawIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == 'Maw of Malmortius'
         );
+        const seraphsIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Seraph's Embrace"
+        );
         copiedLegendaryArray.splice(mawIndex, 1);
+        copiedLegendaryArray.splice(seraphsIndex, 1);
         break;
       }
       case '3139.png': {
