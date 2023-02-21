@@ -479,11 +479,16 @@ export default {
   cursor: pointer;
   border-radius: 10px;
 }
-.item-box,
-.summ-img,
 .max-img {
   box-shadow: 3px 3px 5px #111;
 }
+.item-box {
+  box-shadow: 3px 3px 5px #111;
+}
+.summ-img {
+  box-shadow: 3px, 3px, 5px #111;
+}
+
 @media (hover: hover) {
   .item-box:hover {
     & .tooltip {
@@ -504,18 +509,18 @@ export default {
   background-color: #555;
   padding: 0.7rem;
   border-radius: 10px;
-  &::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translateX(-50%);
-    border: 15px solid;
-    border-color: #555 #0000 #0000 #0000;
-  }
   visibility: hidden;
   opacity: 0;
   transition: all 0.2s ease;
+}
+.tooltip::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translateX(-50%);
+  border: 15px solid;
+  border-color: #555 #0000 #0000 #0000;
 }
 .runes > .section-title {
   text-align: center;
