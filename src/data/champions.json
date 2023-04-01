@@ -1508,6 +1508,25 @@
     "canBuyBoots": true,
     "rangeType": "ranged",
     "resourceType": "mana",
+    "championName": "Milio",
+    "championTitle": "the Gentle Flame",
+    "abilities": [
+      {
+        "spellID": "MilioQ",
+        "spellName": "Ultra Mega Fire Kick",
+        "spellKey": "Q"
+      },
+      { "spellID": "MilioW", "spellName": "Cozy Campfire", "spellKey": "W" },
+      { "spellID": "MilioE", "spellName": "Warm Hugs", "spellKey": "E" }
+    ],
+    "championID": "Milio",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
     "championName": "Miss Fortune",
     "championTitle": "the Bounty Hunter",
     "abilities": [
@@ -1922,7 +1941,7 @@
   },
   {
     "canBuyBoots": true,
-    "rangeType": "ranged",
+    "rangeType": "melee",
     "resourceType": "mana",
     "championName": "Rakan",
     "championTitle": "the Charmer",
