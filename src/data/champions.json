@@ -26,12 +26,12 @@
     "championTitle": "the Nine-Tailed Fox",
     "abilities": [
       {
-        "spellID": "AhriOrbofDeception",
+        "spellID": "AhriQ",
         "spellName": "Orb of Deception",
         "spellKey": "Q"
       },
-      { "spellID": "AhriFoxFire", "spellName": "Fox-Fire", "spellKey": "W" },
-      { "spellID": "AhriSeduce", "spellName": "Charm", "spellKey": "E" }
+      { "spellID": "AhriW", "spellName": "Fox-Fire", "spellKey": "W" },
+      { "spellID": "AhriE", "spellName": "Charm", "spellKey": "E" }
     ],
     "championID": "Ahri",
     "hasImmobilizingEffects": true,

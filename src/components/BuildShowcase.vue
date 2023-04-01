@@ -350,6 +350,7 @@ export default {
   font-size: $big-font;
   color: $light-blue;
   font-weight: 600;
+  white-space: nowrap;
 }
 .champion-title {
   font-size: 25px;
