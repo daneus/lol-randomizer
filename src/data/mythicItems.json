@@ -20,10 +20,6 @@
     "icon": "3190.png"
   },
   {
-    "itemName": "Imperial Mandate",
-    "icon": "4005.png"
-  },
-  {
     "itemName": "Riftmaker",
     "icon": "4633.png"
   },
@@ -72,14 +68,6 @@
     "icon": "6671.png"
   },
   {
-    "itemName": "Kraken Slayer",
-    "icon": "6672.png"
-  },
-  {
-    "itemName": "Immortal Shieldbow",
-    "icon": "6673.png"
-  },
-  {
     "itemName": "Duskblade of Draktharr",
     "icon": "6691.png"
   },
@@ -87,12 +75,24 @@
     "itemName": "Eclipse",
     "icon": "6692.png"
   },
-  {
-    "itemName": "Prowler's Claw",
-    "icon": "6693.png"
-  },
   { "itemName": "Jak'Sho, the Protean", "icon": "6665.png" },
   { "itemName": "Radiant Virtue", "icon": "6667.png" },
   { "itemName": "Heartsteel", "icon": "3084.png" },
-  { "itemName": "Rod of Ages", "icon": "6657.png" }
+  { "itemName": "Rod of Ages", "icon": "6657.png" },
+  {
+    "itemName": "Echoes of Helia",
+    "icon": "6620.png"
+  },
+  {
+    "itemName": "Guinsoo's Rageblade",
+    "icon": "3124.png"
+  },
+  {
+    "itemName": "Infinity Edge",
+    "icon": "3031.png"
+  },
+  {
+    "itemName": "Youmuu's Ghostblade",
+    "icon": "3142.png"
+  }
 ]

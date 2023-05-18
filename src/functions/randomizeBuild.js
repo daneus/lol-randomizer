@@ -89,31 +89,16 @@ const drawRandomBuild = (championObject, role) => {
     drewItems.push(copiedBootsArray[randomBootIndex]);
   }
 
-  const randomMythicIndex = getRandomIndex(27);
+  const randomMythicIndex = getRandomIndex(28);
   const drewMythic = copiedMythicArray[randomMythicIndex];
 
   drewItems.push(drewMythic);
 
-  if (drewMythic.itemName === 'Immortal Shieldbow') {
-    const mawIndex = copiedLegendaryArray.findIndex(
-      (item) => item.itemName == 'Maw of Malmortius'
+  if (drewMythic.itemName === 'Navori Quickblades') {
+    const shojinIndex = copiedLegendaryArray.findIndex(
+      (item) => item.itemName == 'Spear of Shojin'
     );
-    const steraksIndex = copiedLegendaryArray.findIndex(
-      (item) => item.itemName == "Sterak's Gage"
-    );
-    const seraphsIndex = copiedLegendaryArray.findIndex(
-      (item) => item.itemName == "Seraph's Embrace"
-    );
-    copiedLegendaryArray.splice(mawIndex, 1);
-    copiedLegendaryArray.splice(steraksIndex, 1);
-    copiedLegendaryArray.splice(seraphsIndex, 1);
-  }
-
-  if (drewMythic.itemName === 'Rod of Ages') {
-    const abyssalIndex = copiedLegendaryArray.findIndex(
-      (item) => item.itemName == 'Abyssal Mask'
-    );
-    copiedLegendaryArray.splice(abyssalIndex, 1);
+    copiedLegendaryArray.splice(shojinIndex, 1);
   }
 
   if (championObject.rangeType !== 'ranged') {
@@ -139,50 +124,6 @@ const drawRandomBuild = (championObject, role) => {
     const legendaryItemID = legendaryItem.icon;
 
     switch (legendaryItemID) {
-      case '3031.png': {
-        const guinsoosIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == "Guinsoo's Rageblade"
-        );
-        const navoriIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Navori Quickblades'
-        );
-        copiedLegendaryArray.splice(guinsoosIndex, 1);
-        copiedLegendaryArray.splice(navoriIndex, 1);
-        break;
-      }
-      case '3124.png': {
-        const IEIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Infinity Edge'
-        );
-        const navoriIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Navori Quickblades'
-        );
-        copiedLegendaryArray.splice(IEIndex, 1);
-        copiedLegendaryArray.splice(navoriIndex, 1);
-        break;
-      }
-      case '6675.png': {
-        const IEIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Infinity Edge'
-        );
-        const guinsoosIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == "Guinsoo's Rageblade"
-        );
-        const shojinIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Spear of Shojin'
-        );
-        copiedLegendaryArray.splice(IEIndex, 1);
-        copiedLegendaryArray.splice(guinsoosIndex, 1);
-        copiedLegendaryArray.splice(shojinIndex, 1);
-        break;
-      }
-      case '3161.png': {
-        const navoriIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Navori Quickblades'
-        );
-        copiedLegendaryArray.splice(navoriIndex, 1);
-        break;
-      }
       case '3040.png': {
         const muramanaIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == 'Muramana'
@@ -196,10 +137,14 @@ const drawRandomBuild = (championObject, role) => {
         const steraksIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Sterak's Gage"
         );
+        const shieldbowIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Immortal Shieldbow'
+        );
         copiedLegendaryArray.splice(muramanaIndex, 1);
         copiedLegendaryArray.splice(fimbulwinter1Index, 1);
         copiedLegendaryArray.splice(mawIndex, 1);
         copiedLegendaryArray.splice(steraksIndex, 1);
+        copiedLegendaryArray.splice(shieldbowIndex, 1);
         break;
       }
       case '3042.png': {
@@ -228,13 +173,32 @@ const drawRandomBuild = (championObject, role) => {
         const seryldasIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Serylda's Grudge"
         );
+        const mortalIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Mortal Reminder'
+        );
         copiedLegendaryArray.splice(seryldasIndex, 1);
+        copiedLegendaryArray.splice(mortalIndex, 1);
         break;
       }
       case '6694.png': {
         const ldrIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Lord Dominik's Regards"
         );
+        const mortalIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Mortal Reminder'
+        );
+        copiedLegendaryArray.splice(ldrIndex, 1);
+        copiedLegendaryArray.splice(mortalIndex, 1);
+        break;
+      }
+      case '3033.png': {
+        const seryldasIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Serylda's Grudge"
+        );
+        const ldrIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Lord Dominik's Regards"
+        );
+        copiedLegendaryArray.splice(seryldasIndex, 1);
         copiedLegendaryArray.splice(ldrIndex, 1);
         break;
       }
@@ -245,8 +209,12 @@ const drawRandomBuild = (championObject, role) => {
         const seraphsIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Seraph's Embrace"
         );
+        const shieldbowIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Immortal Shieldbow'
+        );
         copiedLegendaryArray.splice(steraksIndex, 1);
         copiedLegendaryArray.splice(seraphsIndex, 1);
+        copiedLegendaryArray.splice(shieldbowIndex, 1);
         break;
       }
       case '3053.png': {
@@ -256,8 +224,27 @@ const drawRandomBuild = (championObject, role) => {
         const seraphsIndex = copiedLegendaryArray.findIndex(
           (item) => item.itemName == "Seraph's Embrace"
         );
+        const shieldbowIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Immortal Shieldbow'
+        );
         copiedLegendaryArray.splice(mawIndex, 1);
         copiedLegendaryArray.splice(seraphsIndex, 1);
+        copiedLegendaryArray.splice(shieldbowIndex, 1);
+        break;
+      }
+      case '6673.png': {
+        const mawIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == 'Maw of Malmortius'
+        );
+        const seraphsIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Seraph's Embrace"
+        );
+        const steraksIndex = copiedLegendaryArray.findIndex(
+          (item) => item.itemName == "Sterak's Gage"
+        );
+        copiedLegendaryArray.splice(mawIndex, 1);
+        copiedLegendaryArray.splice(seraphsIndex, 1);
+        copiedLegendaryArray.splice(steraksIndex, 1);
         break;
       }
       case '3139.png': {
