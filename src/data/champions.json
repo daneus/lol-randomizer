@@ -302,6 +302,25 @@
   },
   {
     "canBuyBoots": true,
+    "rangeType": "melee",
+    "resourceType": "mana",
+    "championName": "Briar",
+    "championTitle": "the Restrained Hunger",
+    "abilities": [
+      { "spellID": "BriarQ", "spellName": "Head Rush", "spellKey": "Q" },
+      {
+        "spellID": "BriarW",
+        "spellName": "Blood Frenzy / Snack Attack",
+        "spellKey": "W"
+      },
+      { "spellID": "BriarE", "spellName": "Chilling Scream", "spellKey": "E" }
+    ],
+    "championID": "Briar",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
     "rangeType": "ranged",
     "resourceType": "mana",
     "championName": "Caitlyn",
