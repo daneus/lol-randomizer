@@ -651,9 +651,6 @@ export default {
     gap: 30px;
   }
 }
-.mythic-item {
-  border: 2px solid gold;
-}
 // @media (hover: hover) {
 // Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mauris rhoncus aenean vel elit. Arcu ac tortor dignissim convallis aenean et tortor. Condimentum id venenatis a condimentum vitae sapien. Volutpat ac tincidunt vitae semper quis. Sagittis id consectetur purus ut faucibus pulvinar. Viverra maecenas accumsan lacus vel facilisis. Consequat semper viverra nam libero justo. Neque aliquam vestibulum morbi blandit. Id leo in vitae turpis massa sed. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Ac tincidunt vitae semper quis lectus nulla.
 // Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Ut aliquam purus sit amet luctus. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Dui faucibus in ornare quam viverra orci sagittis. Eget dolor morbi non arcu. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Faucibus nisl tincidunt eget nullam non nisi. Ac auctor augue mauris augue neque gravida in fermentum. Sit amet consectetur adipiscing elit pellentesque. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Mi quis hendrerit dolor magna eget est lorem. Sapien pellentesque habitant morbi tristique senectus. Varius duis at consectetur lorem.

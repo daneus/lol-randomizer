@@ -1,9 +1,5 @@
 [
   {
-    "itemName": "Chemtech Putrifier",
-    "icon": "3011.png"
-  },
-  {
     "itemName": "Guardian Angel",
     "icon": "3026.png"
   },
@@ -152,10 +148,6 @@
     "icon": "3181.png"
   },
   {
-    "itemName": "Gargoyle Stoneplate",
-    "icon": "3193.png"
-  },
-  {
     "itemName": "Mikael's Blessing",
     "icon": "3222.png"
   },
@@ -204,10 +196,6 @@
     "icon": "4645.png"
   },
   {
-    "itemName": "Silvermere Dawn",
-    "icon": "6035.png"
-  },
-  {
     "itemName": "Death's Dance",
     "icon": "6333.png"
   },
@@ -236,10 +224,6 @@
     "icon": "6696.png"
   },
   {
-    "itemName": "Turbo Chemtank",
-    "icon": "6664.png"
-  },
-  {
     "itemName": "Anathema's Chains",
     "icon": "8001.png"
   },
@@ -265,11 +249,161 @@
     "icon": "6672.png"
   },
   {
-    "itemName": "Prowler's Claw",
-    "icon": "6693.png"
-  },
-  {
     "itemName": "Statikk Shiv",
     "icon": "3087.png"
+  },
+  {
+    "itemName": "Cryptbloom",
+    "icon": "3137.png"
+  },
+  {
+    "itemName": "Dawncore",
+    "icon": "6621.png"
+  },
+  {
+    "itemName": "Echoes of Helia",
+    "icon": "6620.png"
+  },
+  {
+    "itemName": "Eclipse",
+    "icon": "6692.png"
+  },
+  {
+    "itemName": "Experimental Hexplate",
+    "icon": "3073.png"
+  },
+  {
+    "itemName": "Guinsoo's Rageblade",
+    "icon": "3124.png"
+  },
+  {
+    "itemName": "Heartsteel",
+    "icon": "3084.png"
+  },
+  {
+    "itemName": "Hextech Rocketbelt",
+    "icon": "3152.png"
+  },
+  { "itemName": "Hollow Radiance", "icon": "6664.png" },
+  {
+    "itemName": "Hubris",
+    "icon": "6697.png"
+  },
+  {
+    "itemName": "Iceborn Gauntlet",
+    "icon": "6662.png"
+  },
+  {
+    "itemName": "Infinity Edge",
+    "icon": "3031.png"
+  },
+  {
+    "itemName": "Jak'Sho, The Protean",
+    "icon": "6665.png"
+  },
+  { "itemName": "Kaenic Rookern", "icon": "2504.png" },
+  {
+    "itemName": "Liandry's Torment",
+    "icon": "6653.png"
+  },
+  {
+    "itemName": "Locket of the Iron Solari",
+    "icon": "3190.png"
+  },
+  {
+    "itemName": "Luden's Companion",
+    "icon": "6655.png"
+  },
+  {
+    "itemName": "Malignance",
+    "icon": "3118.png"
+  },
+  {
+    "itemName": "Opportunity",
+    "icon": "6701.png"
+  },
+  {
+    "itemName": "Profane Hydra",
+    "icon": "6698.png"
+  },
+  {
+    "itemName": "Navori Quickblades",
+    "icon": "6675.png"
+  },
+  {
+    "itemName": "Moonstone Renewer",
+    "icon": "6617.png"
+  },
+  {
+    "itemName": "Riftmaker",
+    "icon": "4633.png"
+  },
+  {
+    "itemName": "Rod of Ages",
+    "icon": "6657.png"
+  },
+  {
+    "itemName": "Runaan's Hurricane",
+    "icon": "3085.png"
+  },
+  {
+    "itemName": "Shurelya's Battlesong",
+    "icon": "2065.png"
+  },
+  {
+    "itemName": "Stormsurge",
+    "icon": "4646.png"
+  },
+  {
+    "itemName": "Sundered Sky",
+    "icon": "6610.png"
+  },
+  {
+    "itemName": "Stridebreaker",
+    "icon": "6631.png"
+  },
+  {
+    "itemName": "Terminus",
+    "icon": "3302.png"
+  },
+  {
+    "itemName": "Trailblazer",
+    "icon": "3002.png"
+  },
+  {
+    "itemName": "Trinity Force",
+    "icon": "3078.png"
+  },
+  {
+    "itemName": "Unending Despair",
+    "icon": "2502.png"
+  },
+  {
+    "itemName": "Voltaic Cyclosword",
+    "icon": "6699.png"
+  },
+  {
+    "itemName": "Youmuu's Ghostblade",
+    "icon": "3142.png"
+  },
+  {
+    "itemName": "Bloodsong",
+    "icon": "3877.png"
+  },
+  {
+    "itemName": "Solstice Sleigh",
+    "icon": "3876.png"
+  },
+  {
+    "itemName": "Celestial Opposition",
+    "icon": "3869.png"
+  },
+  {
+    "itemName": "Zaz'Zak's Realmspike",
+    "icon": "3871.png"
+  },
+  {
+    "itemName": "Dream Maker",
+    "icon": "3870.png"
   }
 ]
