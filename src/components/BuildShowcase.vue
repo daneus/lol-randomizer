@@ -245,7 +245,7 @@ export default {
   name: 'BuildShowcase',
   data() {
     return {
-      version: '13.18.1',
+      version: '14.1.1',
     };
   },
   computed: {
@@ -650,9 +650,6 @@ export default {
     justify-content: center;
     gap: 30px;
   }
-}
-.mythic-item {
-  border: 2px solid gold;
 }
 // @media (hover: hover) {
 // Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mauris rhoncus aenean vel elit. Arcu ac tortor dignissim convallis aenean et tortor. Condimentum id venenatis a condimentum vitae sapien. Volutpat ac tincidunt vitae semper quis. Sagittis id consectetur purus ut faucibus pulvinar. Viverra maecenas accumsan lacus vel facilisis. Consequat semper viverra nam libero justo. Neque aliquam vestibulum morbi blandit. Id leo in vitae turpis massa sed. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Ac tincidunt vitae semper quis lectus nulla.

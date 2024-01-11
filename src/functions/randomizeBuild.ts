@@ -1,23 +1,21 @@
 import champions from '../data/champions.json';
 import boots from '../data/boots.json';
-import mythic from '../data/mythicItems.json';
 import legendary from '../data/legendaryItems.json';
 import roles from '../data/roles.json';
 import runes from '../data/runes.json';
 import summoners from '../data/summoners.json';
 import smites from '../data/smites.json';
 import support from '../data/supportItems.json';
+import mythic from '../data/mythicItems.json';
 
-const getRandomIndex = (amount) => {
-  return Math.floor(Math.random() * amount);
-};
+const getRandomIndex = (amount) => Math.floor(Math.random() * amount);
 
 const randomizeBuild = () => {
   return drawRandomChampion();
 };
 
 const drawRandomChampion = () => {
-  const randomIndex = getRandomIndex(161);
+  const randomIndex = getRandomIndex(champions.length);
   const drewChampionObject = champions[randomIndex];
 
   const drewAbility = drawRandomAbility(drewChampionObject);

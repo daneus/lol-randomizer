@@ -18,7 +18,7 @@
 
 <script>
 import BuildShowcase from './BuildShowcase.vue';
-import randomizeBuild from '../functions/randomizeBuild.js';
+import randomizeBuild from '../functions/randomizeBuild.ts';
 import store from '@/store';
 
 export default {
