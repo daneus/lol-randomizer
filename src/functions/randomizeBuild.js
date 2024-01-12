@@ -1,30 +1,24 @@
 import champions from '../data/champions.json';
 import boots from '../data/boots.json';
-import mythic from '../data/mythicItems.json';
-import legendary from '../data/legendaryItems.json';
+import items from '../data/items.json';
 import roles from '../data/roles.json';
 import runes from '../data/runes.json';
 import summoners from '../data/summoners.json';
 import smites from '../data/smites.json';
-import support from '../data/supportItems.json';
 
-const getRandomIndex = (amount) => {
-  return Math.floor(Math.random() * amount);
-};
+const getRandomIndex = (amount) => Math.floor(Math.random() * amount);
 
-const randomizeBuild = () => {
-  return drawRandomChampion();
-};
+const randomizeBuild = () => drawRandomChampion();
 
 const drawRandomChampion = () => {
-  const randomIndex = getRandomIndex(161);
+  const randomIndex = getRandomIndex(champions.length);
   const drewChampionObject = champions[randomIndex];
 
   const drewAbility = drawRandomAbility(drewChampionObject);
 
   const { role, summoners } = drawRandomRole();
 
-  const drewBuild = drawRandomBuild(drewChampionObject, role);
+  const drewBuild = drawRandomBuild(drewChampionObject);
 
   const drewRunes = drawRandomRunes(drewChampionObject, summoners);
 
@@ -76,11 +70,9 @@ const drawRandomSummoners = (role) => {
   return drewSummoners;
 };
 
-const drawRandomBuild = (championObject, role) => {
+const drawRandomBuild = (championObject) => {
   const copiedBootsArray = boots.slice(0);
-  const copiedMythicArray = mythic.slice(0);
-  const copiedLegendaryArray = legendary.slice(0);
-  const copiedSupportArray = support.slice(0);
+  const copiedItemsArray = items.slice(0);
 
   const drewItems = [];
 
@@ -89,190 +81,513 @@ const drawRandomBuild = (championObject, role) => {
     drewItems.push(copiedBootsArray[randomBootIndex]);
   }
 
-  const randomMythicIndex = getRandomIndex(copiedMythicArray.length);
-  const drewMythic = copiedMythicArray[randomMythicIndex];
-
-  drewItems.push(drewMythic);
-
-  if (drewMythic.itemName === 'Navori Quickblades') {
-    const shojinIndex = copiedLegendaryArray.findIndex(
-      (item) => item.itemName == 'Spear of Shojin'
-    );
-    copiedLegendaryArray.splice(shojinIndex, 1);
-  }
-
   if (championObject.rangeType !== 'ranged') {
-    const runaansIndex = copiedLegendaryArray.findIndex(
+    const runaansIndex = copiedItemsArray.findIndex(
       (item) => item.itemName == "Runaan's Hurricane"
     );
-    copiedLegendaryArray.splice(runaansIndex, 1);
-  }
-
-  if (role === 'Support') {
-    const randomSupportIndex = getRandomIndex(4);
-    drewItems.push(copiedSupportArray[randomSupportIndex]);
+    copiedItemsArray.splice(runaansIndex, 1);
   }
 
   while (drewItems.length <= 5) {
-    const randomLegendaryIndex = getRandomIndex(copiedLegendaryArray.length);
+    const randomItemIndex = getRandomIndex(copiedItemsArray.length);
 
-    const legendaryItem = copiedLegendaryArray[randomLegendaryIndex];
+    const item = copiedItemsArray[randomItemIndex];
 
-    drewItems.push(legendaryItem);
-    copiedLegendaryArray.splice(randomLegendaryIndex, 1);
+    drewItems.push(item);
+    copiedItemsArray.splice(randomItemIndex, 1);
 
-    const legendaryItemID = legendaryItem.icon;
+    const itemID = item.icon;
 
-    switch (legendaryItemID) {
+    switch (itemID) {
       case '3040.png': {
-        const muramanaIndex = copiedLegendaryArray.findIndex(
+        const muramanaIndex = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Muramana'
         );
-        const fimbulwinter1Index = copiedLegendaryArray.findIndex(
+        const fimbulwinter1Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Fimbulwinter'
         );
-        const mawIndex = copiedLegendaryArray.findIndex(
+        const maw1Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Maw of Malmortius'
         );
-        const steraksIndex = copiedLegendaryArray.findIndex(
+        const steraks1Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Sterak's Gage"
         );
-        const shieldbowIndex = copiedLegendaryArray.findIndex(
+        const shieldbow1Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Immortal Shieldbow'
         );
-        copiedLegendaryArray.splice(muramanaIndex, 1);
-        copiedLegendaryArray.splice(fimbulwinter1Index, 1);
-        copiedLegendaryArray.splice(mawIndex, 1);
-        copiedLegendaryArray.splice(steraksIndex, 1);
-        copiedLegendaryArray.splice(shieldbowIndex, 1);
+        copiedItemsArray.splice(muramanaIndex, 1);
+        copiedItemsArray.splice(fimbulwinter1Index, 1);
+        copiedItemsArray.splice(maw1Index, 1);
+        copiedItemsArray.splice(steraks1Index, 1);
+        copiedItemsArray.splice(shieldbow1Index, 1);
         break;
       }
       case '3042.png': {
-        const seraphsIndex = copiedLegendaryArray.findIndex(
+        const seraphsIndex = copiedItemsArray.findIndex(
           (item) => item.itemName == "Seraph's Embrace"
         );
-        const fimbulwinter2Index = copiedLegendaryArray.findIndex(
+        const fimbulwinter2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Fimbulwinter'
         );
-        copiedLegendaryArray.splice(seraphsIndex, 1);
-        copiedLegendaryArray.splice(fimbulwinter2Index, 1);
+        copiedItemsArray.splice(seraphsIndex, 1);
+        copiedItemsArray.splice(fimbulwinter2Index, 1);
         break;
       }
       case '3121.png': {
-        const seraphs2Index = copiedLegendaryArray.findIndex(
+        const seraphs2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Seraph's Embrace"
         );
-        const muramana2Index = copiedLegendaryArray.findIndex(
+        const muramana2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Muramana'
         );
-        copiedLegendaryArray.splice(seraphs2Index, 1);
-        copiedLegendaryArray.splice(muramana2Index, 1);
+        copiedItemsArray.splice(seraphs2Index, 1);
+        copiedItemsArray.splice(muramana2Index, 1);
         break;
       }
       case '3036.png': {
-        const seryldasIndex = copiedLegendaryArray.findIndex(
+        const seryldas1Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Serylda's Grudge"
         );
-        const mortalIndex = copiedLegendaryArray.findIndex(
+        const mortalIndex = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Mortal Reminder'
         );
-        copiedLegendaryArray.splice(seryldasIndex, 1);
-        copiedLegendaryArray.splice(mortalIndex, 1);
+        const terminus1Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Terminus'
+        );
+        const blackCleaver1Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Black Cleaver'
+        );
+        copiedItemsArray.splice(seryldas1Index, 1);
+        copiedItemsArray.splice(mortalIndex, 1);
+        copiedItemsArray.splice(terminus1Index, 1);
+        copiedItemsArray.splice(blackCleaver1Index, 1);
         break;
       }
       case '6694.png': {
-        const ldrIndex = copiedLegendaryArray.findIndex(
+        const ldrIndex = copiedItemsArray.findIndex(
           (item) => item.itemName == "Lord Dominik's Regards"
         );
-        const mortalIndex = copiedLegendaryArray.findIndex(
+        const mortalIndex = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Mortal Reminder'
         );
-        copiedLegendaryArray.splice(ldrIndex, 1);
-        copiedLegendaryArray.splice(mortalIndex, 1);
+        const terminus2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Terminus'
+        );
+        const blackCleaver2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Black Cleaver'
+        );
+        copiedItemsArray.splice(ldrIndex, 1);
+        copiedItemsArray.splice(mortalIndex, 1);
+        copiedItemsArray.splice(terminus2Index, 1);
+        copiedItemsArray.splice(blackCleaver2Index, 1);
         break;
       }
       case '3033.png': {
-        const seryldasIndex = copiedLegendaryArray.findIndex(
+        const seryldas2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Serylda's Grudge"
         );
-        const ldrIndex = copiedLegendaryArray.findIndex(
+        const ldrIndex = copiedItemsArray.findIndex(
           (item) => item.itemName == "Lord Dominik's Regards"
         );
-        copiedLegendaryArray.splice(seryldasIndex, 1);
-        copiedLegendaryArray.splice(ldrIndex, 1);
+        const terminus3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Terminus'
+        );
+        const blackCleaver3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Black Cleaver'
+        );
+        copiedItemsArray.splice(seryldas2Index, 1);
+        copiedItemsArray.splice(ldrIndex, 1);
+        copiedItemsArray.splice(terminus3Index, 1);
+        copiedItemsArray.splice(blackCleaver3Index, 1);
+        break;
+      }
+      case '3071.png': {
+        const seryldas3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Serylda's Grudge"
+        );
+        const ldrIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Lord Dominik's Regards"
+        );
+        const terminus4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Terminus'
+        );
+        const mortalIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Mortal Reminder'
+        );
+        copiedItemsArray.splice(seryldas3Index, 1);
+        copiedItemsArray.splice(ldrIndex, 1);
+        copiedItemsArray.splice(terminus4Index, 1);
+        copiedItemsArray.splice(mortalIndex, 1);
+        break;
+      }
+      case '3302.png': {
+        const seryldas4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Serylda's Grudge"
+        );
+        const ldrIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Lord Dominik's Regards"
+        );
+        const mortalIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Mortal Reminder'
+        );
+        const blackCleaver4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Black Cleaver'
+        );
+        const voidIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Void Staff'
+        );
+        const cryptIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Cryptbloom'
+        );
+        copiedItemsArray.splice(seryldas4Index, 1);
+        copiedItemsArray.splice(ldrIndex, 1);
+        copiedItemsArray.splice(mortalIndex, 1);
+        copiedItemsArray.splice(blackCleaver4Index, 1);
+        copiedItemsArray.splice(voidIndex, 1);
+        copiedItemsArray.splice(cryptIndex, 1);
+        break;
+      }
+      case '3135.png': {
+        const terminus5Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Terminus'
+        );
+        const cryptIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Cryptbloom'
+        );
+        copiedItemsArray.splice(terminus5Index, 1);
+        copiedItemsArray.splice(cryptIndex, 1);
+        break;
+      }
+      case '3137.png': {
+        const terminus6Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Terminus'
+        );
+        const voidIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Void Staff'
+        );
+        copiedItemsArray.splice(terminus6Index, 1);
+        copiedItemsArray.splice(voidIndex, 1);
         break;
       }
       case '3156.png': {
-        const steraksIndex = copiedLegendaryArray.findIndex(
+        const steraks2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Sterak's Gage"
         );
-        const seraphsIndex = copiedLegendaryArray.findIndex(
+        const seraphs3Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Seraph's Embrace"
         );
-        const shieldbowIndex = copiedLegendaryArray.findIndex(
+        const shieldbow2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Immortal Shieldbow'
         );
-        copiedLegendaryArray.splice(steraksIndex, 1);
-        copiedLegendaryArray.splice(seraphsIndex, 1);
-        copiedLegendaryArray.splice(shieldbowIndex, 1);
+        copiedItemsArray.splice(steraks2Index, 1);
+        copiedItemsArray.splice(seraphs3Index, 1);
+        copiedItemsArray.splice(shieldbow2Index, 1);
         break;
       }
       case '3053.png': {
-        const mawIndex = copiedLegendaryArray.findIndex(
+        const maw2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Maw of Malmortius'
         );
-        const seraphsIndex = copiedLegendaryArray.findIndex(
+        const seraphs4Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Seraph's Embrace"
         );
-        const shieldbowIndex = copiedLegendaryArray.findIndex(
+        const shieldbow3Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Immortal Shieldbow'
         );
-        copiedLegendaryArray.splice(mawIndex, 1);
-        copiedLegendaryArray.splice(seraphsIndex, 1);
-        copiedLegendaryArray.splice(shieldbowIndex, 1);
+        copiedItemsArray.splice(maw2Index, 1);
+        copiedItemsArray.splice(seraphs4Index, 1);
+        copiedItemsArray.splice(shieldbow3Index, 1);
         break;
       }
       case '6673.png': {
-        const mawIndex = copiedLegendaryArray.findIndex(
+        const maw3Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Maw of Malmortius'
         );
-        const seraphsIndex = copiedLegendaryArray.findIndex(
+        const seraphs5Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Seraph's Embrace"
         );
-        const steraksIndex = copiedLegendaryArray.findIndex(
+        const steraks2Index = copiedItemsArray.findIndex(
           (item) => item.itemName == "Sterak's Gage"
         );
-        copiedLegendaryArray.splice(mawIndex, 1);
-        copiedLegendaryArray.splice(seraphsIndex, 1);
-        copiedLegendaryArray.splice(steraksIndex, 1);
-        break;
-      }
-      case '3139.png': {
-        const silvermereIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Silvermere Dawn'
-        );
-        copiedLegendaryArray.splice(silvermereIndex, 1);
-        break;
-      }
-      case '6035.png': {
-        const scimitarIndex = copiedLegendaryArray.findIndex(
-          (item) => item.itemName == 'Mercurial Scimitar'
-        );
-        copiedLegendaryArray.splice(scimitarIndex, 1);
+        copiedItemsArray.splice(maw3Index, 1);
+        copiedItemsArray.splice(seraphs5Index, 1);
+        copiedItemsArray.splice(steraks2Index, 1);
         break;
       }
       case '3748.png': {
-        const ravenousIndex = copiedLegendaryArray.findIndex(
+        const ravenous1Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Ravenous Hydra'
         );
-        copiedLegendaryArray.splice(ravenousIndex, 1);
+        const profane1Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Profane Hydra'
+        );
+        copiedItemsArray.splice(ravenous1Index, 1);
+        copiedItemsArray.splice(profane1Index, 1);
         break;
       }
       case '3074.png': {
-        const titanicIndex = copiedLegendaryArray.findIndex(
+        const titanic1Index = copiedItemsArray.findIndex(
           (item) => item.itemName == 'Titanic Hydra'
         );
-        copiedLegendaryArray.splice(titanicIndex, 1);
+        const profane2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Profane Hydra'
+        );
+        copiedItemsArray.splice(titanic1Index, 1);
+        copiedItemsArray.splice(profane2Index, 1);
+        break;
+      }
+      case '6698.png': {
+        const ravenous2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Ravenous Hydra'
+        );
+        const titanic2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Titanic Hydra'
+        );
+        copiedItemsArray.splice(ravenous2Index, 1);
+        copiedItemsArray.splice(titanic2Index, 1);
+        break;
+      }
+      case '3031.png': {
+        const navoriIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Navori Quickblades'
+        );
+        copiedItemsArray.splice(navoriIndex, 1);
+        break;
+      }
+      case '6675.png': {
+        const infinityIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Infinity Edge'
+        );
+        copiedItemsArray.splice(infinityIndex, 1);
+        break;
+      }
+      case '3002.png': {
+        const deadMansIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Dead Man's Plate"
+        );
+        copiedItemsArray.splice(deadMansIndex, 1);
+        break;
+      }
+      case '3742.png': {
+        const trailblazerIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Trailblazer'
+        );
+        copiedItemsArray.splice(trailblazerIndex, 1);
+        break;
+      }
+      case '3068.png': {
+        const hollowIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Hollow Radiance'
+        );
+        copiedItemsArray.splice(hollowIndex, 1);
+        break;
+      }
+      case '6664.png': {
+        const sunfireIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Aunfire Aegis'
+        );
+        copiedItemsArray.splice(sunfireIndex, 1);
+        break;
+      }
+      case '3814.png': {
+        const bansheeIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Banshee's Veil"
+        );
+        copiedItemsArray.splice(bansheeIndex, 1);
+        break;
+      }
+      case '3102.png': {
+        const edgeIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Edge of Night'
+        );
+        copiedItemsArray.splice(edgeIndex, 1);
+        break;
+      }
+      case '3508.png': {
+        const trinityIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Trinity Force'
+        );
+        const lichIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Lich Bane'
+        );
+        const icebornIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Iceborn Gauntlet'
+        );
+        const bloodsongIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        copiedItemsArray.splice(trinityIndex, 1);
+        copiedItemsArray.splice(lichIndex, 1);
+        copiedItemsArray.splice(icebornIndex, 1);
+        copiedItemsArray.splice(bloodsongIndex, 1);
+        break;
+      }
+      case '3078.png': {
+        const essenceIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Essence Reaver'
+        );
+        const lich2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Lich Bane'
+        );
+        const iceborn2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Iceborn Gauntlet'
+        );
+        const bloodsong2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        copiedItemsArray.splice(essenceIndex, 1);
+        copiedItemsArray.splice(lich2Index, 1);
+        copiedItemsArray.splice(iceborn2Index, 1);
+        copiedItemsArray.splice(bloodsong2Index, 1);
+        break;
+      }
+      case '3100.png': {
+        const essence2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Essence Reaver'
+        );
+        const iceborn3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Iceborn Gauntlet'
+        );
+        const bloodsong3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        const trinity2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Trinity Force'
+        );
+        copiedItemsArray.splice(essence2Index, 1);
+        copiedItemsArray.splice(iceborn3Index, 1);
+        copiedItemsArray.splice(bloodsong3Index, 1);
+        copiedItemsArray.splice(trinity2Index, 1);
+        break;
+      }
+      case '3877.png': {
+        const essence3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Essence Reaver'
+        );
+        const iceborn4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Iceborn Gauntlet'
+        );
+        const trinity3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Trinity Force'
+        );
+        const lich3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Lich Bane'
+        );
+        const solsticeIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Solstice Sleigh'
+        );
+        const celestialIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Celestial Opposition'
+        );
+        const zakzakIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Zaz'Zak's Realmspike"
+        );
+        const dreamIndex = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Dream Maker'
+        );
+        copiedItemsArray.splice(essence3Index, 1);
+        copiedItemsArray.splice(iceborn4Index, 1);
+        copiedItemsArray.splice(trinity3Index, 1);
+        copiedItemsArray.splice(lich3Index, 1);
+        copiedItemsArray.splice(solsticeIndex, 1);
+        copiedItemsArray.splice(celestialIndex, 1);
+        copiedItemsArray.splice(zakzakIndex, 1);
+        copiedItemsArray.splice(dreamIndex, 1);
+        break;
+      }
+      case '6662.png': {
+        const essence4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Essence Reaver'
+        );
+        const trinity4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Trinity Force'
+        );
+        const lich4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Lich Bane'
+        );
+        const bloodsong4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        copiedItemsArray.splice(essence4Index, 1);
+        copiedItemsArray.splice(trinity4Index, 1);
+        copiedItemsArray.splice(lich4Index, 1);
+        copiedItemsArray.splice(bloodsong4Index, 1);
+        break;
+      }
+      case '3876.png': {
+        const celestial2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Celestial Opposition'
+        );
+        const zakzak2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Zaz'Zak's Realmspike"
+        );
+        const dream2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Dream Maker'
+        );
+        const bloodsong4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        copiedItemsArray.splice(celestial2Index, 1);
+        copiedItemsArray.splice(zakzak2Index, 1);
+        copiedItemsArray.splice(dream2Index, 1);
+        copiedItemsArray.splice(bloodsong4Index, 1);
+        break;
+      }
+      case '3869.png': {
+        const zakzak3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Zaz'Zak's Realmspike"
+        );
+        const dream3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Dream Maker'
+        );
+        const bloodsong5Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        const solstice2Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Solstice Sleigh'
+        );
+        copiedItemsArray.splice(zakzak3Index, 1);
+        copiedItemsArray.splice(dream3Index, 1);
+        copiedItemsArray.splice(bloodsong5Index, 1);
+        copiedItemsArray.splice(solstice2Index, 1);
+        break;
+      }
+      case '3871.png': {
+        const dream4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Dream Maker'
+        );
+        const bloodsong6Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        const solstice3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Solstice Sleigh'
+        );
+        const celestial3Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Celestial Opposition'
+        );
+        copiedItemsArray.splice(dream4Index, 1);
+        copiedItemsArray.splice(bloodsong6Index, 1);
+        copiedItemsArray.splice(solstice3Index, 1);
+        copiedItemsArray.splice(celestial3Index, 1);
+        break;
+      }
+      case '3867.png': {
+        const bloodsong7Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Bloodsong'
+        );
+        const solstice4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Solstice Sleigh'
+        );
+        const celestial4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == 'Celestial Opposition'
+        );
+        const zakzak4Index = copiedItemsArray.findIndex(
+          (item) => item.itemName == "Zaz'Zak's Realmspike"
+        );
+        copiedItemsArray.splice(bloodsong7Index, 1);
+        copiedItemsArray.splice(solstice4Index, 1);
+        copiedItemsArray.splice(celestial4Index, 1);
+        copiedItemsArray.splice(zakzak4Index, 1);
         break;
       }
     }
