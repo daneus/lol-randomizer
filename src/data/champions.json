@@ -816,6 +816,21 @@
   },
   {
     "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Hwei",
+    "championTitle": "the Visionary",
+    "abilities": [
+      { "spellID": "HweiQ", "spellName": "Subject: Disaster", "spellKey": "Q" },
+      { "spellID": "HweiW", "spellName": "Subject: Serenity", "spellKey": "W" },
+      { "spellID": "HweiE", "spellName": "Subject: Torment", "spellKey": "E" }
+    ],
+    "canRunUltimateHunter": true,
+    "championID": "Hwei",
+    "hasImmobilizingEffects": true
+  },
+  {
+    "canBuyBoots": true,
     "rangeType": "melee",
     "resourceType": "mana",
     "championName": "Illaoi",
