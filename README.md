@@ -25,4 +25,4 @@ Examples of impossible builds:
 - **Melee** champions with **Runaan's Hurricane**
 - **Cassiopeia** with **boots** or **Magical Footwear**
 - **Energy users** with **Manaflow Band**
-- Multiple unique items on drawn build, like **Infinity Edge** and **Guinsoo's Rageblade**
+- Multiple unique items on drawn build, like **Ravenous Hydra** and **Titanic Hydra**
