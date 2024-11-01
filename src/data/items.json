@@ -76,10 +76,6 @@
     "icon": "3094.png"
   },
   {
-    "itemName": "Stormrazor",
-    "icon": "3095.png"
-  },
-  {
     "itemName": "Lich Bane",
     "icon": "3100.png"
   },
@@ -184,10 +180,6 @@
     "icon": "4629.png"
   },
   {
-    "itemName": "Demonic Embrace",
-    "icon": "4637.png"
-  },
-  {
     "itemName": "Shadowflame",
     "icon": "4645.png"
   },
@@ -218,10 +210,6 @@
   {
     "itemName": "Axiom Arc",
     "icon": "6696.png"
-  },
-  {
-    "itemName": "Anathema's Chains",
-    "icon": "8001.png"
   },
   {
     "itemName": "Abyssal Mask",
@@ -323,7 +311,7 @@
     "icon": "6698.png"
   },
   {
-    "itemName": "Navori Quickblades",
+    "itemName": "Navori Flickerblade",
     "icon": "6675.png"
   },
   {
@@ -383,23 +371,15 @@
     "icon": "3142.png"
   },
   {
-    "itemName": "Bloodsong",
-    "icon": "3877.png"
+    "itemName": "Blackfire Torch",
+    "icon": "2503.png"
   },
   {
-    "itemName": "Solstice Sleigh",
-    "icon": "3876.png"
+    "itemName": "Overlord's Bloodmail",
+    "icon": "2501.png"
   },
   {
-    "itemName": "Celestial Opposition",
-    "icon": "3869.png"
-  },
-  {
-    "itemName": "Zaz'Zak's Realmspike",
-    "icon": "3871.png"
-  },
-  {
-    "itemName": "Dream Maker",
-    "icon": "3870.png"
+    "itemName": "Yun Tal Wildarrows",
+    "icon": "3032.png"
   }
 ]

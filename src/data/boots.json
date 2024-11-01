@@ -20,11 +20,11 @@
     "icon": "3111.png"
   },
   {
-    "itemName": "Mobility Boots",
-    "icon": "3117.png"
-  },
-  {
     "itemName": "Ionian Boots of Lucidity",
     "icon": "3158.png"
+  },
+  {
+    "itemName": "Synchronized Souls",
+    "icon": "3013.png"
   }
 ]

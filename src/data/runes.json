@@ -11,7 +11,7 @@
       },
       {
         "firstRow": [
-          { "Overheal": "Overheal" },
+          { "AbsorbLife": "Absorb Life" },
           { "Triumph": "Triumph" },
           { "PresenceOfMind": "Presence of Mind" }
         ]
@@ -19,7 +19,7 @@
       {
         "secondRow": [
           { "LegendAlacrity": "Legend: Alacrity" },
-          { "LegendTenacity": "Legend: Tenacity" },
+          { "LegendHaste": "Legend: Haste" },
           { "LegendBloodline": "Legend: Bloodline" }
         ]
       },
@@ -69,7 +69,6 @@
       {
         "keystones": [
           { "Electrocute": "Electrocute" },
-          { "Predator": "Predator" },
           { "DarkHarvest": "Dark Harvest" },
           { "HailOfBlades": "Hail of Blades" }
         ]
@@ -91,7 +90,6 @@
       {
         "thirdRow": [
           { "TreasureHunter": "Treasure Hunter" },
-          { "IngeniousHunter": "Ingenious Hunter" },
           { "RelentlessHunter": "Relentless Hunter" },
           { "UltimateHunter": "Ultimate Hunter" }
         ]
@@ -143,13 +141,13 @@
         "firstRow": [
           { "HextechFlashtraption": "Hextech Flashtraption" },
           { "MagicalFootwear": "Magical Footwear" },
-          { "TripleTonic": "Triple Tonic" }
+          { "CashBack": "Cash Back" }
         ]
       },
       {
         "secondRow": [
-          { "FuturesMarket": "Future's Market" },
-          { "MinionDematerializer": "Minion Dematerializer" },
+          { "TripleTonic": "Triple Tonic" },
+          { "TimeWarpTonic": "Time Warp Tonic" },
           { "BiscuitDelivery": "Biscuit Delivery" }
         ]
       },
@@ -157,7 +155,7 @@
         "thirdRow": [
           { "CosmicInsight": "Cosmic Insight" },
           { "ApproachVelocity": "Approach Velocity" },
-          { "TimeWarpTonic": "Time Warp Tonic" }
+          { "JackOfAllTrades": "Jack of All Trades" }
         ]
       }
     ]
@@ -174,15 +172,15 @@
       {
         "secondRow": [
           { "AdaptiveForce": "Adaptive Force" },
-          { "Armor": "Armor" },
-          { "MagicResist": "Magic Resistance" }
+          { "MovementSpeed": "Movement Speed" },
+          { "ScalingHealth": "Scaling Health" }
         ]
       },
       {
         "thirdRow": [
-          { "HP": "Health" },
-          { "Armor": "Armor" },
-          { "MagicResist": "Magic Resistance" }
+          { "HP": "Flat Health" },
+          { "TenSlow": "Tenacity / Slow Resist" },
+          { "ScalingHealth": "Scaling health" }
         ]
       }
     ]

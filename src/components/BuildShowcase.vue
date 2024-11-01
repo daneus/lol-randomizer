@@ -245,7 +245,7 @@ export default {
   name: 'BuildShowcase',
   data() {
     return {
-      version: '14.1.1',
+      version: '14.21.1',
     };
   },
   computed: {
@@ -572,17 +572,14 @@ export default {
   padding-left: 10px;
 }
 .circle {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #bb9834;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   position: relative;
   background-color: $background-color;
 }
 .circle > img {
   position: absolute;
-  width: 22px;
-  height: 22px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

@@ -198,6 +198,29 @@
     "canBuyBoots": true,
     "rangeType": "ranged",
     "resourceType": "mana",
+    "championName": "Aurora",
+    "championTitle": "the Witch Between Worlds",
+    "abilities": [
+      { "spellID": "AuroraQ", "spellName": "Twofold Hex", "spellKey": "Q" },
+      {
+        "spellID": "AuroraW",
+        "spellName": "Across the Veil",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "AuroraE",
+        "spellName": "The Weirding",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Aurora",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
     "championName": "Azir",
     "championTitle": "the Emperor of the Sands",
     "abilities": [
@@ -932,13 +955,13 @@
     "championTitle": "Grandmaster at Arms",
     "abilities": [
       {
-        "spellID": "JaxLeapStrike",
+        "spellID": "JaxQ",
         "spellName": "Leap Strike",
         "spellKey": "Q"
       },
-      { "spellID": "JaxEmpowerTwo", "spellName": "Empower", "spellKey": "W" },
+      { "spellID": "JaxW", "spellName": "Empower", "spellKey": "W" },
       {
-        "spellID": "JaxCounterStrike",
+        "spellID": "JaxE",
         "spellName": "Counter Strike",
         "spellKey": "E"
       }
@@ -1369,7 +1392,7 @@
   },
   {
     "canBuyBoots": true,
-    "rangeType": "ranged",
+    "rangeType": "melee",
     "resourceType": "mana",
     "championName": "Lillia",
     "championTitle": "the Bashful Bloom",
@@ -2407,18 +2430,45 @@
     "championTitle": "the Crystal Vanguard",
     "abilities": [
       {
-        "spellID": "SkarnerVirulentSlash",
-        "spellName": "Crystal Slash",
+        "spellID": "SkarnerQ",
+        "spellName": "Shattered Earth / Upheaval",
         "spellKey": "Q"
       },
       {
-        "spellID": "SkarnerExoskeleton",
-        "spellName": "Crystalline Exoskeleton",
+        "spellID": "SkarnerW",
+        "spellName": "Seismic Bastion",
         "spellKey": "W"
       },
-      { "spellID": "SkarnerFracture", "spellName": "Fracture", "spellKey": "E" }
+      { "spellID": "SkarnerE", "spellName": "Ixtal's Impact", "spellKey": "E" }
     ],
     "championID": "Skarner",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "ranged",
+    "resourceType": "mana",
+    "championName": "Smolder",
+    "championTitle": "the Fiery Fledgling",
+    "abilities": [
+      {
+        "spellID": "SmolderQ",
+        "spellName": "Super Scorcher Breath",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "SmolderW",
+        "spellName": "Achooo!",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "SmolderE",
+        "spellName": "Flap, Flap, Flap",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Smolder",
     "hasImmobilizingEffects": true,
     "canRunUltimateHunter": true
   },
@@ -2581,12 +2631,12 @@
     "championTitle": "the Swift Scout",
     "abilities": [
       {
-        "spellID": "BlindingDart",
+        "spellID": "TeemoQ",
         "spellName": "Blinding Dart",
         "spellKey": "Q"
       },
-      { "spellID": "MoveQuick", "spellName": "Move Quick", "spellKey": "W" },
-      { "spellID": "ToxicShot", "spellName": "Toxic Shot", "spellKey": "E" }
+      { "spellID": "TeemoW", "spellName": "Move Quick", "spellKey": "W" },
+      { "spellID": "TeemoE", "spellName": "Toxic Shot", "spellKey": "E" }
     ],
     "championID": "Teemo",
     "hasImmobilizingEffects": false,
