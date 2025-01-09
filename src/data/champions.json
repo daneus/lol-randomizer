@@ -89,6 +89,33 @@
   {
     "canBuyBoots": true,
     "rangeType": "melee",
+    "resourceType": "energy",
+    "championName": "Ambessa",
+    "championTitle": "Matriarch of War",
+    "abilities": [
+      {
+        "spellID": "AmbessaQ",
+        "spellName": "Cunning Sweep / Sundering Slam",
+        "spellKey": "Q"
+      },
+      {
+        "spellID": "AmbessaW",
+        "spellName": "Repudiation",
+        "spellKey": "W"
+      },
+      {
+        "spellID": "AmbessaE",
+        "spellName": "Lacerate",
+        "spellKey": "E"
+      }
+    ],
+    "championID": "Ambessa",
+    "hasImmobilizingEffects": true,
+    "canRunUltimateHunter": true
+  },
+  {
+    "canBuyBoots": true,
+    "rangeType": "melee",
     "resourceType": "mana",
     "championName": "Amumu",
     "championTitle": "the Sad Mummy",
