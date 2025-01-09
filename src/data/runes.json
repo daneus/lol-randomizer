@@ -43,7 +43,7 @@
       },
       {
         "firstRow": [
-          { "NullifyingOrb": "Nullifying Orb" },
+          { "AxiomArcanist": "Axiom Arcanist" },
           { "ManaflowBand": "Manaflow Band" },
           { "NimbusCloak": "Nimbus Cloak" }
         ]
@@ -82,9 +82,9 @@
       },
       {
         "secondRow": [
-          { "ZombieWard": "Zombie Ward" },
-          { "GhostPoro": "Ghost Poro" },
-          { "EyeballCollection": "Eyeball Collection" }
+          { "SixthSense": "Sixth Sense" },
+          { "GrislyMementos": "Grisly Mementos" },
+          { "DeepWard": "Deep Ward" }
         ]
       },
       {
